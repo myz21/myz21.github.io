@@ -56,7 +56,6 @@
     const personalData = {
         name: "Muhammed Yıldız",
         email: "mhmmdyildiz@proton.me",
-        phone: "+92-344-4699152",
         linkedin: "https://linkedin.com/in/myzz",
         github: "https://github.com/myz21",
     };
@@ -102,7 +101,6 @@
 
         const items = [
             { label: 'Email', href: `mailto:${personalData.email}`, icon: '✉️' },
-            { label: 'Phone number', href: `tel:${personalData.phone.replace(/[^0-9+]/g, "")}`, icon: '📞' },
             { label: 'LinkedIn', href: personalData.linkedin, icon: '🔗' },
             { label: 'GitHub', href: personalData.github, icon: '💻' }
         ];
