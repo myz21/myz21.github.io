@@ -1,0 +1,336 @@
+[{
+  "basic_info": {
+    "fullname": "Muhammed Yıldız",
+    "first_name": "Muhammed",
+    "last_name": "Yıldız",
+    "headline": "Undergraduate Researcher",
+    "public_identifier": "myzz",
+    "profile_url": "https://linkedin.com/in/myzz",
+    "profile_picture_url": "https://media.licdn.com/dms/image/v2/D4D03AQF-EzlVAlRENg/profile-displayphoto-shrink_800_800/B4DZSM0oBNGUAc-/0/1737529393670?e=1779321600&v=beta&t=yoC0twkRVwAeXHYuuhC1uhHsGLVajDkMhzna94dEs58",
+    "about": "https://www.github.com/myz21\n\nHi, I’m Muhammed Yıldız from Diyarbakır, Turkey. I’m a Computer Engineering student at Ankara Yıldırım Beyazıt University, passionate about designing AI-powered tools to solve routine problems. My experiences range from leading AI projects with my friends to developing machine learning solutions for various applications. I also actively contribute to the AI team through workshops and collaborative projects.\n\nI am particularly interested in advancing the field of AI, with a focus on world models and physical AI, and I aspire to work at leading global companies to innovate in these areas. With a creative background in drawing, I strive to leverage both my technical and artistic skills to bring new ideas to life across AI and other disciplines.\n\nDeep work is all you need!",
+    "location": {
+      "country": "Türkiye",
+      "city": "Ankara",
+      "full": "Ankara, Türkiye",
+      "country_code": "TR"
+    },
+    "creator_hashtags": [],
+    "is_creator": false,
+    "is_influencer": false,
+    "is_premium": true,
+    "open_to_work": false,
+    "created_timestamp": 1628586800389,
+    "show_follower_count": false,
+    "background_picture_url": "https://media.licdn.com/dms/image/v2/D4D16AQEzOHsQh-wJzw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1708412644225?e=1779321600&v=beta&t=bYM2z4qTvifMbl-cP0jQWh-51nA6sVq_XHvECyxbFQg",
+    "urn": "ACoAADcSzyMBUV7aSeCnnR1DXVqPlaswLOi6EJI",
+    "follower_count": 992,
+    "connection_count": 967,
+    "current_company": "Hacettepe University",
+    "current_company_urn": "21486",
+    "current_company_url": "https://www.linkedin.com/company/hacettepe-university",
+    "top_skills": [],
+    "email": null
+  },
+  "experience": [
+    {
+      "title": "Undergraduate Researcher at Biological Data Science Lab",
+      "company": "Hacettepe Üniversitesi",
+      "location": "Ankara, Türkiye",
+      "description": "Adapting state-of-the-art LLMs to protein generation and downstream tasks. Specifically working on the state space model Mamba.",
+      "duration": "Aug 2025 - Present · 9 mos",
+      "start_date": {
+        "year": 2025,
+        "month": "Aug"
+      },
+      "is_current": true,
+      "company_linkedin_url": "https://www.linkedin.com/company/21486/",
+      "company_logo_url": "https://media.licdn.com/dms/image/v2/D4D0BAQGR4I1T9kjcjg/company-logo_400_400/B4DZxQ_QdjIwAg-/0/1770885286131/hacettepe_university_logo?e=1779321600&v=beta&t=hb5YN_UXZWwN9-5vhcru1uELXD5OYPGwNDeWaNesgDU",
+      "location_type": "Hybrid",
+      "skills": [
+        "Pytorch",
+        "Transformer Models and +1 skill"
+      ],
+      "company_id": "21486",
+      "skills_url": "https://www.linkedin.com/in/myzz/overlay/urn:li:fsd_profilePosition:(ACoAADcSzyMBUV7aSeCnnR1DXVqPlaswLOi6EJI,2729147266)/skill-associations-details?profileUrn=urn%3Ali%3Afsd_profile%3AACoAADcSzyMBUV7aSeCnnR1DXVqPlaswLOi6EJI"
+    },
+    {
+      "title": "AI Engineering Intern",
+      "company": "nanominds",
+      "location": "Istanbul, Türkiye",
+      "description": "- Researched AI workflows in Venture Capital and analyzed AI use cases across the investment process.\n- I also studied Hybrid RAG, focusing on combining dense and sparse retrieval for improved knowledge systems. \n- The results were presented as a strategic report to AI Startup Factory @isbankasi Group.",
+      "duration": "Jul 2025 - Aug 2025 · 2 mos",
+      "start_date": {
+        "year": 2025,
+        "month": "Jul"
+      },
+      "end_date": {
+        "year": 2025,
+        "month": "Aug"
+      },
+      "is_current": false,
+      "company_linkedin_url": "https://www.linkedin.com/company/106623630/",
+      "company_logo_url": "https://media.licdn.com/dms/image/v2/D4D0BAQGilLZ2_6V4dw/company-logo_400_400/B4DZViLuOTHkAY-/0/1741108995444/nanomindsai_logo?e=1779321600&v=beta&t=IAHaGuzgApUOmVBnVZdC1r8UBGPhFYTeYgPNWxLBYSI",
+      "employment_type": "Full-time",
+      "location_type": "Remote",
+      "skills": [
+        "Almayla Artırılmış Üretim (RAG) and Girişimcilik"
+      ],
+      "company_id": "106623630",
+      "skills_url": "https://www.linkedin.com/in/myzz/overlay/urn:li:fsd_profilePosition:(ACoAADcSzyMBUV7aSeCnnR1DXVqPlaswLOi6EJI,2876092728)/skill-associations-details?profileUrn=urn%3Ali%3Afsd_profile%3AACoAADcSzyMBUV7aSeCnnR1DXVqPlaswLOi6EJI"
+    },
+    {
+      "title": "Part Time Working Student",
+      "company": "Ankara Yıldırım Beyazıt Üniversitesi",
+      "description": "I was hired for this role due to my personal interest and talent in meaningful cartoon drawings and pencil sketching. I taught students the fundamentals of pencil drawing and provided key advice to help them develop their 3D thinking skills. I created tutorials using various drawing books and YouTube resources. My lessons covered a wide range of topics, starting from perspective drawing to anatomical sketches. Currently, I continue to draw with my students, and we have formed a small but active drawing community.",
+      "duration": "Mar 2025 - May 2025 · 3 mos",
+      "start_date": {
+        "year": 2025,
+        "month": "Mar"
+      },
+      "end_date": {
+        "year": 2025,
+        "month": "May"
+      },
+      "is_current": false,
+      "company_linkedin_url": "https://www.linkedin.com/company/16196522/",
+      "company_logo_url": "https://media.licdn.com/dms/image/v2/D4D0BAQEjDwjEPrv2Xg/company-logo_400_400/company-logo_400_400/0/1723661781036?e=1779321600&v=beta&t=KyHxGwWg1AUcqmfjMI55NmAjf32vy5xPJSUfBCj5jWk",
+      "skills": [
+        "Sanat"
+      ],
+      "company_id": "16196522",
+      "skills_url": "https://www.linkedin.com/in/myzz/overlay/urn:li:fsd_profilePosition:(ACoAADcSzyMBUV7aSeCnnR1DXVqPlaswLOi6EJI,2665313808)/skill-associations-details?profileUrn=urn%3Ali%3Afsd_profile%3AACoAADcSzyMBUV7aSeCnnR1DXVqPlaswLOi6EJI"
+    },
+    {
+      "title": "Team Lead",
+      "company": "BİLTEK AI",
+      "location": "Ankara, Türkiye",
+      "description": "I took over the leadership of the newly founded AI team in one of the most established clubs at my university. I founded a competition team called Zenith AI, and with this team, we are currently preparing for the semi-finals of the TEKNOFEST 2025 Artificial Intelligence in Aviation competition.\nWe also organized the club’s first-ever AI conference, which focused on Explainable AI.\nThis experience has been a valuable step in improving my leadership skills.\nCurrently, I continue to lead the Zenith AI team independently from the club.",
+      "duration": "Sep 2024 - Mar 2025 · 7 mos",
+      "start_date": {
+        "year": 2024,
+        "month": "Sep"
+      },
+      "end_date": {
+        "year": 2025,
+        "month": "Mar"
+      },
+      "is_current": false,
+      "company_linkedin_url": "https://www.linkedin.com/company/105204708/",
+      "company_logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQGFAX6akFXmrA/company-logo_400_400/company-logo_400_400/0/1728499905877/biltek_ai_logo?e=1779321600&v=beta&t=JOXXSe_9NO89LMuvT1baawNWL2bK-u3rs3lhRA_7Gb8",
+      "skills": [
+        "Proje Yönetimi and Liderlik"
+      ],
+      "company_id": "105204708",
+      "skills_url": "https://www.linkedin.com/in/myzz/overlay/urn:li:fsd_profilePosition:(ACoAADcSzyMBUV7aSeCnnR1DXVqPlaswLOi6EJI,2494785251)/skill-associations-details?profileUrn=urn%3Ali%3Afsd_profile%3AACoAADcSzyMBUV7aSeCnnR1DXVqPlaswLOi6EJI"
+    },
+    {
+      "title": "Core Team Member of AI Department",
+      "company": "AYBÜ Bilim ve Teknoloji Topluluğu",
+      "duration": "May 2024 - Mar 2025 · 11 mos",
+      "start_date": {
+        "year": 2024,
+        "month": "May"
+      },
+      "end_date": {
+        "year": 2025,
+        "month": "Mar"
+      },
+      "is_current": false,
+      "company_linkedin_url": "https://www.linkedin.com/company/5167630/",
+      "company_logo_url": "https://media.licdn.com/dms/image/v2/D4D0BAQH6TkPx7w1JUw/company-logo_400_400/B4DZoR.dADKQAc-/0/1761238176608?e=1779321600&v=beta&t=idJzhAWOBCXO4uFvM7YDaKtRNnbTLneKJaBtpbTuHQE",
+      "company_id": "5167630"
+    },
+    {
+      "title": "Member of Cyber Department ",
+      "company": "AYBÜ Bilim ve Teknoloji Topluluğu",
+      "duration": "Nov 2023 - May 2024 · 7 mos",
+      "start_date": {
+        "year": 2023,
+        "month": "Nov"
+      },
+      "end_date": {
+        "year": 2024,
+        "month": "May"
+      },
+      "is_current": false,
+      "company_linkedin_url": "https://www.linkedin.com/company/5167630/",
+      "company_logo_url": "https://media.licdn.com/dms/image/v2/D4D0BAQH6TkPx7w1JUw/company-logo_400_400/B4DZoR.dADKQAc-/0/1761238176608?e=1779321600&v=beta&t=idJzhAWOBCXO4uFvM7YDaKtRNnbTLneKJaBtpbTuHQE",
+      "company_id": "5167630"
+    }
+  ],
+  "education": [
+    {
+      "school": "Ankara Yıldırım Beyazıt Üniversitesi",
+      "degree": "Lisans Derecesi, Bilgisayar Mühendisliği",
+      "degree_name": "Lisans Derecesi",
+      "field_of_study": "Bilgisayar Mühendisliği",
+      "duration": "Oct 2023 - Jun 2027",
+      "school_linkedin_url": "https://www.linkedin.com/company/16196522/",
+      "skills": "C, Java and +3 skills",
+      "school_logo_url": "https://media.licdn.com/dms/image/v2/D4D0BAQEjDwjEPrv2Xg/company-logo_400_400/company-logo_400_400/0/1723661781036?e=1779321600&v=beta&t=KyHxGwWg1AUcqmfjMI55NmAjf32vy5xPJSUfBCj5jWk",
+      "start_date": {
+        "year": 2023,
+        "month": "Oct"
+      },
+      "end_date": {
+        "year": 2027,
+        "month": "Jun"
+      },
+      "school_id": "16196522"
+    },
+    {
+      "school": "Firat University",
+      "degree": "Lisans Derecesi, Dentistry",
+      "degree_name": "Lisans Derecesi",
+      "field_of_study": "Dentistry",
+      "duration": "Sep 2021 - Aug 2023",
+      "school_linkedin_url": "https://www.linkedin.com/company/142443/",
+      "description": "dropped out to pursue my dreams",
+      "activities": "FÜ Foreign Language Club",
+      "school_logo_url": "https://media.licdn.com/dms/image/v2/C510BAQE3p1j1WWn1Fg/company-logo_400_400/company-logo_400_400/0/1631329825242?e=1779321600&v=beta&t=IIV1wja86Yk_aFV-2BfbVJFpoydWGxYbqrHV0p7KFrM",
+      "start_date": {
+        "year": 2021,
+        "month": "Sep"
+      },
+      "end_date": {
+        "year": 2023,
+        "month": "Aug"
+      },
+      "school_id": "142443"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Deep Learning Study Group",
+      "issuer": "inzva",
+      "issued_date": "Issued Apr 2026"
+    },
+    {
+      "name": "AI Club Datathon'25 Second Prize",
+      "issuer": "Hacettepe Üniversitesi Yapay Zeka Topluluğu",
+      "issued_date": "Issued Mar 2025"
+    }
+  ],
+  "featured": [
+    {
+      "type": "post",
+      "description": "TR:\n\nVodafone Bi' Düşünsene Fikir Yarışması'nda FiberSense takımımız ile 198 üniversiteden, 2200 başvuru arasından finallere kalarak finalde üçüncülük elde ettik.\n\nVodafone Yanımda uygulamasına entegre etmeyi düşündüğümüz FiberSense'in ülkemiz için stratejik önemini, Vodafone'a olacak katkısını, uygulanabilirliğini Vodafone Genel Müdürlüğü'nde ekip arkadaşım Evran Can Aras ile jürilere sunduk.\n\nFikrimize gösterdikleri ilgiden dolayı başta sayın Engin Aksoy'a ve sayın Akan Abdula'ya,  Nazlı Tlabar Güler'e,  DENİZ SAĞDIÇ'a , Ayşegül Arıcan Şeker'e,  Meltem Bakiler Sahin'e , ELİF ERGU DEMİRAL'e  Mehmet Keteloglu'na, süreçte bizi bilgilendiren sayın Fatma Bal'a, yarışmadaki arkadaşlarıma ve tabii ki çok değerli Vodafone ailesine teşekkürlerimi sunarım. Azimle çalışmaya, çabalamaya devam edeceğiz.  \n\nEN:\n\nWe made it to the finals and won third place among 2200 applications from 198 universities in the Vodafone Bi' Düşünsene Ideathon.\n\nI am thankful for the great interest and support shown for our idea during this challenging but rewarding process. My thanks go to the esteemed jury members, all the participants in the competition, and the valuable Vodafone family. We will continue to work and strive with determination.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7406752769224663042?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7406752769224663042%29",
+      "image_url": "https://media.licdn.com/dms/image/v2/D5622AQGnIKS1YQe5bA/feedshare-shrink_2048_1536/B56ZsoSY5uJ8Aw-/0/1765907468948?e=1779321600&v=beta&t=4pky9az-Y69jkp1YiQvi31Isi_bhEMB4PYLyu3jtoCA",
+      "social_counts": {
+        "likes": 136,
+        "comments": 20,
+        "reaction_counts": [
+          {
+            "type": "like",
+            "count": 129
+          },
+          {
+            "type": "praise",
+            "count": 6
+          },
+          {
+            "type": "empathy",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "type": "post",
+      "description": "Global AI Hub tarafından gerçekleştirilen Aygaz A.Ş. Yapay Zekaya Giriş Bootcamp programına katılmaktan büyük bir memnuniyet duydum. \n\nGururla belirtmek isterim ki, projem ilk 3 proje arasına seçildi ve proje sunumumu başarıyla gerçekleştirdim.\n\nBu inanılmaz yolculukta beni destekleyen ve süreci yöneten Community Lead ve mentörlerimiz Ayşenur Dedecan, İsmail AÇAR, Göker Güner, Hayatı Can AYDIN, Gunnur Senturk, Uğurcan Uzunkaya, İBRAHİM ENES ULUSOY, Mert Yasin Bozkır ve Buldan Karahan'a sonsuz teşekkürlerimi sunuyorum.\n\nYouTube Yayın Linki: https://lnkd.in/dzPcf-uJ\nProjemin linki: https://lnkd.in/dZPajgkh",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7213269522361815042?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7213269522361815042%29",
+      "image_url": "https://media.licdn.com/dms/image/v2/D4D22AQERz42Ea13g9A/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1719777469166?e=1779321600&v=beta&t=nP7sAw1MQTz72uiY2uUV9vcVnU7Cz7aSRLNf8zIBiEg",
+      "social_counts": {
+        "likes": 26,
+        "comments": 5,
+        "reaction_counts": [
+          {
+            "type": "like",
+            "count": 18
+          },
+          {
+            "type": "praise",
+            "count": 7
+          },
+          {
+            "type": "appreciation",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "type": "post",
+      "description": "Dear connections,\n\nI finished the Code Jam, organized by Happy Hacking Space, in second place 🥈. In this three-stage competition, we solved competitive programming questions. It was a fun and exciting experience. First and foremost, I would like to thank Dogan Can Bakir and the esteemed moderators. I hope to achieve even greater successes in the future.\n\n---\n\nDeğerli bağlantılarım merhaba,\n\n25 Ocak'ta Happy Hacking Space ve .. tarafından düzenlenen Code Jam'i 2. olarak tamamladım. 3 aşamalı bu yarışmada competitive programming sorularını çözdük. Eğlenceli bir etkinlikti. Başta topluluk kurucusu Dogan Can Bakir'a ve değerli moderatörlere teşekkürler. İleriki süreçte daha büyük başarılara imza atmam ümidiyle.\n",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7290399937270308865?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7290399937270308865%29",
+      "image_url": "https://media.licdn.com/dms/image/v2/D4D22AQHRa5M9kejYHg/feedshare-shrink_1280/B4DZSy0GQCGkAw-/0/1738166791943?e=1779321600&v=beta&t=xcRlX27zRmHyppEY9zAeUgzMh9tceVkiMiAzgV1N_cQ",
+      "social_counts": {
+        "likes": 63,
+        "comments": 4,
+        "reaction_counts": [
+          {
+            "type": "like",
+            "count": 60
+          },
+          {
+            "type": "praise",
+            "count": 2
+          },
+          {
+            "type": "empathy",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "type": "post",
+      "description": "Hacettepe Üniversitesi Yapay Zeka Topluluğu'nun düzenlediği Datathon’da ekibimizle 𝟮𝟮𝟴 takım / 𝟰𝟬𝟱 katılımcı arasından finalist olup, final sunumumuzda 𝗶𝗸𝗶𝗻𝗰𝗶𝗹𝗶𝗸 ödülünü kazanmanın gururunu yaşadık! 🎉\nTakım arkadaşlarım Fırat Özcan ve Mustafa Özcan ile, Adaboost gibi güçlü makine öğrenmesi modellerini kullanarak, keşifsel veri analizleri yaptık. \n\nSponsor firma Insider için geleceğin pazarlama stratejilerine yönelik öngörüler sunduk. Jürilerden Ahmet Önol ve Prof. Dr. Ali Serhan Koyuncugil'e ayrıca teşekkürler. \n\n Gerçek \"𝗕𝗶𝗹𝗶𝗺 𝘃𝗲 𝘁𝗲𝗸𝗻𝗼𝗹𝗼𝗷𝗶\" ışığında gerçekleştirdiğimiz bu çalışma, teknik bilgi ve azimle neler başarabileceğimizin somut bir kanıtıdır. Ekibimdeki her bireye teşekkür eder, gelecekte daha büyük başarılara imza atmayı dilerim!\n\n#AI #MachineLearning #Datathon #Adaboost #Insider #Innovation #Hakikat\n\nEnglish:\n\nAt the Datathon organized by Hacettepe University AI Club, our team proudly became finalists among 228 teams and had the honor of winning second place in the final presentation! 🎉\n\nIn our presentation, we conducted exploratory data analyses using powerful machine learning models like Adaboost, and provided insights into future marketing strategies for our sponsor, Insider.\n\nThis work, carried out in the true light of \"Science and Technology,\" is a tangible testament to what can be achieved with technical knowledge and determination. I thank every individual on my team and look forward to even greater accomplishments in the future!\n\nhttps://lnkd.in/dAXxunMu",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7308571251696984064?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7308571251696984064%29",
+      "image_url": "https://media.licdn.com/dms/image/v2/D4D22AQGRB-7q3y1dkA/feedshare-shrink_2048_1536/B4DZW1Cr4AGcA0-/0/1742499156865?e=1779321600&v=beta&t=krhzwTV4MTE1d4XHnJ0ObY-I0fvOgvYF8v8LVUff8ho",
+      "social_counts": {
+        "likes": 147,
+        "comments": 6,
+        "reaction_counts": [
+          {
+            "type": "like",
+            "count": 136
+          },
+          {
+            "type": "praise",
+            "count": 10
+          },
+          {
+            "type": "empathy",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "type": "post",
+      "description": "Türkiye’nin en prestijli teknoloji festivali TEKNOFEST'te Ankara Yıldırım Beyazıt Üniversitesi öğrencileri olarak, Havacılıkta Yapay Zeka yarışmasında 2025’te kurduğumuz Zenith AI takımımız ile kısıtlı imkânlara ve teknik engellere rağmen takım arkadaşlarım Emre Akpınar, Musab Demir ve Yunus Emre Ceran  ile birlikte verdiğimiz beş aylık yoğun çalışmanın sonunda çevrimiçi yarışma simülasyonunda 10. sırayı elde ederek büyük bir başarıya imza attık.\n\nNesne tanıma (object detection) ve konum kestirimi (visual odometry) üzerine çalıştık; konum kestirimi algoritmamız 0.894 rpg_trajectory_evaluation puanı ile ilk sırayı aldı. Uykusuz gecelerimizin meyvesini böylece almış olduk.\n\nBu yalnızca bir başlangıç. Çabamız sürecek, bu yolculukta finalde çok daha iyisini yapmayı hedefliyoruz. Hedefimiz birincilik. Fettah olan Allah, galip gelmeyi nasip etsin.\n\nİleriki gelişmelerimizden haberdar olabilmek için Next hesabımızı buradan takip edebilirsiniz: https://lnkd.in/d4ngM75x\n\n#TEKNOFEST #YapayZeka #havacılıktayapayzeka #YıldırımBeyazıtÜniversitesi #ROCKY",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7365358690230501376?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7365358690230501376%29",
+      "image_url": "https://media.licdn.com/dms/image/v2/D4D22AQGRsf9Y9T51vQ/feedshare-shrink_2048_1536/B4DZjcCsJjGsA0-/0/1756038352608?e=1779321600&v=beta&t=AU1NeIcUb_VHgAesHKkAoX3KyPftF0D90rGfON9lL98",
+      "social_counts": {
+        "likes": 131,
+        "comments": 20,
+        "reaction_counts": [
+          {
+            "type": "like",
+            "count": 118
+          },
+          {
+            "type": "praise",
+            "count": 11
+          },
+          {
+            "type": "appreciation",
+            "count": 2
+          }
+        ]
+      }
+    }
+  ]
+}]

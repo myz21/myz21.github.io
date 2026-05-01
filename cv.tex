@@ -1,0 +1,199 @@
+%-------------------------
+% Resume in LaTeX - ATS Optimized
+% Optimized for: AI/ML Engineering Internship in Industry
+% Author : Muhammed Yıldız
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.6in}
+\addtolength{\textheight}{1.1in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge\scshape Muhammed Yıldız} \\ \vspace{2pt}
+    \small
+    \href{mailto:mhmmdyildiz@proton.me}{\underline{mhmmdyildiz@proton.me}} $|$ 
+    \href{https://linkedin.com/in/myzz}{\underline{linkedin.com/in/myzz}} $|$
+    \href{https://github.com/myz21}{\underline{github.com/myz21}} $|$
+    \href{tel:+905551926713}{+90 555 192 6713}
+\end{center}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Summary}
+    \small{\textbf{AI Researcher} and Computer Engineering undergraduate skilled in \textbf{NLP, computer vision, and generative AI}. Proven ability to train deep learning models and \textbf{deploy AI web services}. Recognized \textbf{hackathon winner} and technical event organizer}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Ankara Yildirim Beyazit University}{Ankara, Turkey}
+      {B.Sc. in Computer Engineering; GPA: 3.24/4.0}{Oct. 2023 -- June 2027 (Expected)}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Hacettepe Biological Data Science Lab}{Aug. 2025 -- Present}
+      {Undergraduate Researcher}{Ankara, Turkey}
+\vspace{0.5pt}
+      \resumeItemListStart
+\resumeItem{Developed \textbf{ProtMamba}, a \textbf{State-Space Model} for generative protein language modeling, bypassing Transformer quadratic bottlenecks for linear-time inference.}
+\resumeItem{Engineered scalable \textbf{PyTorch} data pipelines for 60M+ sequences, utilizing \textbf{Hugging Face} for tokenization and dynamically tracking large-scale training/hyperparameter optimization experiments via \textbf{Weights \& Biases (W\&B)}.}
+
+      \resumeItemListEnd
+\vspace{5pt}
+    \resumeSubheading
+      {Nanominds}{July 2025 - August 2025}
+      {Intern}{İstanbul, Turkey}
+\vspace{0.5pt}
+\resumeItemListStart
+\resumeItem{Researched \textbf{AI workflows in Venture Capital} and analyzed AI use cases across the investment process. I also studied \textbf{Hybrid RAG}, focusing on combining \textbf{dense} and \textbf{sparse retrieval} for improved knowledge systems. The results were presented as a strategic report to the venture capital firm.}
+
+      \resumeItemListEnd
+\vspace{5pt}
+    \resumeSubheading
+      {Zenith AI Team}{March 2025 -- Present}
+      {Team Lead \& Computer Vision Engineer}{Ankara, Turkey}
+\vspace{0.5pt}
+      \resumeItemListStart
+        \resumeItem{Engineered a vision-based navigation system for a GPS-denied UAV challenge (TEKNOFEST), securing \textbf{finalist} status with the \textbf{highest semi-final trajectory score (0.894)} via \textbf{ORB odometry}; optimized \textbf{YOLO} models via \textbf{data augmentation} to robustly detect objects from challenging aerial imagery.}
+        
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Technical Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{nanoGPT} $:$ \emph{\textbf{Pytorch/Numpy}} \href{https://github.com/myz21/GPT}{(Click for project - GitHub)}}{Jan. 2026}
+          \resumeItemListStart
+            \resumeItem{Built a \textbf{GPT language model from scratch} using decoder-only transformer architecture with character-level tokenization, trained for 50 epochs on RTX A5000 GPU over 53 hours to generate contextual text descriptions.}
+          \resumeItemListEnd
+    \vspace{0.1pt}
+
+      \resumeProjectHeading
+          {\textbf{DoctorGPT: Medical Assistant} \href{https://github.com/myz21/DoctorGPT}{(Click for project - GitHub)}}{July 2025}
+          \resumeItemListStart
+            \resumeItem{Engineered an intelligent conversational AI web service utilizing \textbf{LangChain, Gemini, FastAPI, and Pydantic} to deliver highly responsive, context-aware, and structured natural language interactions for users. }
+          \resumeItemListEnd
+\vspace{0.1pt}
+
+
+      \resumeProjectHeading
+          {\textbf{E-Corp Customer Insight Analysis} $|$ \emph{\href{https://lnkd.in/dAXxunMu}{2nd Place - Click for post} }}{Mar. 2025}
+          \resumeItemListStart
+            \resumeItem{Awarded \textbf{2nd Place} by achieving \textbf{0.92 R-squared score} in revenue prediction via optimized \textbf{AdaBoost} and extensive EDA using \textbf{Pandas} and \textbf{Matplotlib}.}
+          \resumeItemListEnd
+\vspace{0.1pt}
+
+      
+    \resumeProjectHeading
+        {\textbf{The Traitor — Client/Server Game (C++/SFML)} \href{https://github.com/M-Enes/OOP_Group19}{(Click for project - GitHub)}}{Dec. 2025}
+        \resumeItemListStart
+          \resumeItem{Built SFML client UI (menu/lobby/action), avatar selection/rendering, and game-over/win screens.}
+          \resumeItem{Integrated with \textbf{TCP client--server networking} and \textbf{packet-based messaging} for multiplayer gameplay.}
+        \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+
+%-----------LEADERSHIP & AWARDS-----------
+\section{Leadership \& Awards}
+  \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+      {\textbf{Vodafone AI Ideathon (Bi' Düşünsene)} $|$ \href{https://lnkd.in/dZVzU3Wx}{\textbf{3rd Place Winner - Click for post}}}{Dec. 2024}
+      \resumeItemListStart
+        \resumeItem{Conceptualized an early Earthquake Warning System integrated into the Vodafone ecosystem, leveraging Fiber Optic Sensing technology to detect seismic vibrations via existing telecommunication infrastructure.}
+      \resumeItemListEnd
+
+    \vspace{4pt}
+
+
+
+    \resumeProjectHeading
+      {\textbf{Happy Hacking Space Code Jam} $|$ \href{https://www.linkedin.com/posts/myzz_dear-connections-i-finished-the-code-jam-activity-7290399937270308865-ghH9/}{\textbf{2nd Place Winner - Click for post}}}{Jan. 2025}
+      \resumeItemListStart
+\vspace{0.2pt}
+        \resumeItem{Ranked 2nd among competitors by solving complex algorithmic challenges under strict time constraints.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{AI/ML Frameworks}{: PyTorch, TensorFlow, Scikit-learn, LangChain, HuggingFace, OpenCV, YOLO} \\
+     \textbf{Tools \& DevOps}{: Git, Docker, FastAPI, Streamlit, Pandas, NumPy, Matplotlib, Linux} \\
+     \textbf{Languages}{: Python, C++, Java, SQL}
+    }}
+ \end{itemize}
+
+\end{document}

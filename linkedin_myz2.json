@@ -1,0 +1,532 @@
+[{
+  "about": "https://www.github.com/myz21\n\nHi, I’m Muhammed Yıldız from Diyarbakır, Turkey. I’m a Computer Engineering student at Ankara Yıldırım Beyazıt University, passionate about designing AI-powered tools to solve routine problems. My experiences range from leading AI projects with my friends to developing machine learning solutions for various applications. I also actively contribute to the AI team through workshops and collaborative projects.\n\nI am particularly interested in advancing the field of AI, with a focus on world models and physical AI, and I aspire to work at leading global companies to innovate in these areas. With a creative background in drawing, I strive to leverage both my technical and artistic skills to bring new ideas to life across AI and other disciplines.\n\nDeep work is all you need!",
+  "address": null,
+  "addressCountryOnly": "Türkiye",
+  "addressWithCountry": "Ankara, Türkiye Türkiye",
+  "addressWithoutCountry": "Ankara, Türkiye",
+  "backgroundPicture": "https://media.licdn.com/dms/image/v2/D4D16AQEzOHsQh-wJzw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1708412644225?e=1779321600&v=beta&t=bYM2z4qTvifMbl-cP0jQWh-51nA6sVq_XHvECyxbFQg",
+  "backgroundPictureAllDimentions": [
+    {
+      "expiresAt": 1779321600000,
+      "height": 199,
+      "image": "https://media.licdn.com/dms/image/v2/D4D16AQEzOHsQh-wJzw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1708412644225?e=1779321600&v=beta&t=kOZ96WlSHArFtm_41TshDfqZkLHVMGnwahO5yenNEvU",
+      "width": 800
+    },
+    {
+      "expiresAt": 1779321600000,
+      "height": 349,
+      "image": "https://media.licdn.com/dms/image/v2/D4D16AQEzOHsQh-wJzw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1708412644225?e=1779321600&v=beta&t=bYM2z4qTvifMbl-cP0jQWh-51nA6sVq_XHvECyxbFQg",
+      "width": 1400
+    }
+  ],
+  "companyNameOnProfileTopCardShown": false,
+  "creator": false,
+  "current_company": "Hacettepe University",
+  "current_company_description": "Founded on the foundations of the Chair of Child Health established in 1954 by Prof. Dr. İhsan Doğramacı, Hacettepe rapidly became one of Türkiye’s most prominent institutions in the fields of health and science. With the establishment of the Children’s Hospital and the Institute of Child Health, a strong academic structure was formed that integrated education, research, and public service. This pioneering approach in health sciences was further institutionalized with the establishment of the Faculty of Medicine and the Faculty of Health Sciences.\n\nWith the official establishment of Hacettepe University in 1967, this accumulated academic heritage was consolidated under a single university structure. Since then, Hacettepe has taken its place among Türkiye’s most respected and leading higher education institutions.\n\nCelebrating its 50th anniversary in 2017 with pride, Hacettepe University today continues to contribute to social development and universal values in the fields of science, technology, and the arts through its 17 faculties, 15 institutes, 4 vocational schools, 2 schools of higher education, 1 conservatory, and 98 research and application centers.\n\nFor tens of thousands of students, alumni, and staff members, being a member of Hacettepe means being part of a distinguished academic tradition, a strong institutional culture, and a vision that shapes the future.",
+  "current_company_domain": "hacettepe.edu.tr",
+  "current_company_employee_count": "7648",
+  "current_company_followers": 177420,
+  "current_company_headquarters": "Ankara, TR",
+  "current_company_industry": "Higher Education",
+  "current_company_linkedin_url": "https://tr.linkedin.com/school/hacettepe-university/",
+  "current_company_name": "Hacettepe University",
+  "current_company_organization_type": "Educational",
+  "current_company_url": "https://tr.linkedin.com/school/hacettepe-university/",
+  "current_company_website": "http://hacettepe.edu.tr/",
+  "educationOnProfileTopCardShown": false,
+  "educations": [
+    {
+      "caption": "Oct 2023 - Jun 2027",
+      "companyId": "16196522",
+      "companyLink1": "https://www.linkedin.com/school/ybuankara/",
+      "companyUrn": "urn:li:fsd_company:16196522",
+      "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQEjDwjEPrv2Xg/company-logo_400_400/company-logo_400_400/0/1723661781036?e=1779321600&v=beta&t=KyHxGwWg1AUcqmfjMI55NmAjf32vy5xPJSUfBCj5jWk",
+      "subComponents": [],
+      "subtitle": "Lisans Derecesi, Bilgisayar Mühendisliği",
+      "title": "Ankara Yıldırım Beyazıt Üniversitesi"
+    },
+    {
+      "caption": "Sep 2021 - Aug 2023",
+      "companyId": "142443",
+      "companyLink1": "https://www.linkedin.com/school/firat-university/",
+      "companyUrn": "urn:li:fsd_company:142443",
+      "logo": "https://media.licdn.com/dms/image/v2/C510BAQE3p1j1WWn1Fg/company-logo_400_400/company-logo_400_400/0/1631329825242?e=1779321600&v=beta&t=IIV1wja86Yk_aFV-2BfbVJFpoydWGxYbqrHV0p7KFrM",
+      "subComponents": [
+        {
+          "text": "78.73",
+          "type": "insightComponent"
+        },
+        {
+          "text": "dropped out to pursue my dreams",
+          "type": "insightComponent"
+        }
+      ],
+      "subtitle": "Lisans Derecesi, FÜ Foreign Language Club",
+      "title": "Fırat Üniversitesi"
+    },
+    {
+      "caption": "Sep 2017 - Jun 2021",
+      "subComponents": [
+        {
+          "text": "92.45",
+          "type": "insightComponent"
+        }
+      ],
+      "subtitle": "High School Diploma, Yok",
+      "title": "Nevzat Ayaz Anadolu Lisesi"
+    }
+  ],
+  "experiences": [
+    {
+      "breakdown": false,
+      "caption": "Aug 2025 - Present · 5 mos",
+      "companyId": "21486",
+      "companyLink1": "https://www.linkedin.com/school/hacettepe-university/",
+      "companyUrn": "urn:li:fsd_company:21486",
+      "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQGR4I1T9kjcjg/company-logo_100_100/B4DZxQ_QdjIwAY-/0/1770885286131/hacettepe_university_logo?e=1779321600&v=beta&t=P3pqP3sG0s9lvwfKcbuQN_rzNREJGW-hsRPriyArGzg",
+      "metadata": "Ankara, Türkiye",
+      "subComponents": [
+        {
+          "description": {
+            "text": "Adapting state-of-the-art LLMs to protein generation and downstream tasks. Specifically working on the state space model Mamba.",
+            "type": "textComponent"
+          }
+        }
+      ],
+      "subtitle": "Hacettepe Üniversitesi",
+      "title": "Undergraduate Researcher at Biological Data Science Lab"
+    },
+    {
+      "breakdown": false,
+      "caption": "Jul 2025 - Aug 2025 · 1 mo",
+      "companyId": "106623630",
+      "companyLink1": "https://www.linkedin.com/company/nanomindsai/",
+      "companyUrn": "urn:li:fsd_company:106623630",
+      "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQGilLZ2_6V4dw/company-logo_100_100/B4DZViLuOTHkAQ-/0/1741108995444/nanomindsai_logo?e=1779321600&v=beta&t=yQEiwESZ7H3n0yBfIYYpEcJTxCUKR68mP65y_DUm4ac",
+      "metadata": "İstanbul, Türkiye",
+      "subComponents": [
+        {
+          "description": {
+            "text": "- Researched AI workflows in Venture Capital and analyzed AI use cases across the investment process.\n- I also studied Hybrid RAG, focusing on combining dense and sparse retrieval for improved knowledge systems. \n- The results were presented as a strategic report to AI Startup Factory @isbankasi Group.",
+            "type": "textComponent"
+          }
+        }
+      ],
+      "subtitle": "nanominds · Full-time",
+      "title": "AI Engineering Intern"
+    },
+    {
+      "breakdown": false,
+      "caption": "Mar 2025 - May 2025 · 2 mos",
+      "companyId": "16196522",
+      "companyLink1": "https://www.linkedin.com/school/ybuankara/",
+      "companyUrn": "urn:li:fsd_company:16196522",
+      "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQEjDwjEPrv2Xg/company-logo_400_400/company-logo_400_400/0/1723661781036?e=1779321600&v=beta&t=KyHxGwWg1AUcqmfjMI55NmAjf32vy5xPJSUfBCj5jWk",
+      "subComponents": [
+        {
+          "description": {
+            "text": "I was hired for this role due to my personal interest and talent in meaningful cartoon drawings and pencil sketching. I taught students the fundamentals of pencil drawing and provided key advice to help them develop their 3D thinking skills. I created tutorials using various drawing books and YouTube resources. My lessons covered a wide range of topics, starting from perspective drawing to anatomical sketches. Currently, I continue to draw with my students, and we have formed a small but active drawing community.",
+            "type": "textComponent"
+          }
+        }
+      ],
+      "subtitle": "Ankara Yıldırım Beyazıt Üniversitesi",
+      "title": "Part Time Working Student"
+    },
+    {
+      "breakdown": false,
+      "caption": "Sep 2024 - Mar 2025 · 6 mos",
+      "companyId": "105204708",
+      "companyLink1": "https://www.linkedin.com/company/bi%CC%87ltek-ai/",
+      "companyUrn": "urn:li:fsd_company:105204708",
+      "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGFAX6akFXmrA/company-logo_400_400/company-logo_400_400/0/1728499905877/biltek_ai_logo?e=1779321600&v=beta&t=JOXXSe_9NO89LMuvT1baawNWL2bK-u3rs3lhRA_7Gb8",
+      "metadata": "Ankara, Türkiye",
+      "subComponents": [
+        {
+          "description": {
+            "text": "I took over the leadership of the newly founded AI team in one of the most established clubs at my university. I founded a competition team called Zenith AI, and with this team, we are currently preparing for the semi-finals of the TEKNOFEST 2025 Artificial Intelligence in Aviation competition.\nWe also organized the club’s first-ever AI conference, which focused on Explainable AI.\nThis experience has been a valuable step in improving my leadership skills.\nCurrently, I continue to lead the Zenith AI team independently from the club.",
+            "type": "textComponent"
+          }
+        }
+      ],
+      "subtitle": "BİLTEK AI",
+      "title": "Team Lead"
+    },
+    {
+      "breakdown": true,
+      "companyId": "5167630",
+      "companyLink1": "https://www.linkedin.com/company/aybubiltek/",
+      "companyUrn": "urn:li:fsd_company:5167630",
+      "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQH6TkPx7w1JUw/company-logo_100_100/B4DZoR.dADKQAU-/0/1761238176608?e=1779321600&v=beta&t=Fjw0o85mKDm-Ct8jQK3CvCiYLhNAXtpc2jVnM6hKzHU",
+      "subComponents": [
+        {
+          "caption": "May 2024 - Mar 2025 · 10 mos",
+          "description": [],
+          "title": "Core Team Member of AI Department"
+        },
+        {
+          "caption": "Nov 2023 - May 2024 · 6 mos",
+          "description": [],
+          "title": "Member of Cyber Department "
+        }
+      ],
+      "subtitle": "undefined · 1 yr 4 mos",
+      "title": "AYBÜ Bilim ve Teknoloji Topluluğu"
+    }
+  ],
+  "firstName": "Muhammed",
+  "fullName": "Muhammed Yıldız",
+  "geoLocationBackfilled": false,
+  "headline": "Undergraduate Researcher",
+  "honorsAndAwards": [],
+  "industry": "Computer Software",
+  "influencer": false,
+  "interests": [],
+  "languages": [],
+  "lastName": "Yıldız",
+  "licenseAndCertificates": [
+    {
+      "breakdown": false,
+      "companyId": "28184006",
+      "companyLink1": "https://www.linkedin.com/company/inzva/",
+      "companyUrn": "urn:li:fsd_company:28184006",
+      "issued": "Issued Apr 2026",
+      "logo": "https://media.licdn.com/dms/image/v2/C560BAQGUg-3pKJ16og/company-logo_400_400/company-logo_400_400/0/1631398857864?e=1779321600&v=beta&t=60TxJgAWZhnmIV_cO4q6M7Dq7ZqmzVU7caJub88jI1E",
+      "subComponents": [
+        {
+          "description": []
+        }
+      ],
+      "subtitle": "inzva",
+      "title": "Deep Learning Study Group"
+    },
+    {
+      "breakdown": false,
+      "companyId": "12622420",
+      "companyLink1": "https://www.linkedin.com/company/hacettepeaiclub/",
+      "companyUrn": "urn:li:fsd_company:12622420",
+      "issued": "Issued Mar 2025",
+      "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQFXxGf86xywRA/company-logo_400_400/company-logo_400_400/0/1630497284466/hacettepeaiclub_logo?e=1779321600&v=beta&t=Hrl-E8dwP6zunRV9bLNHICDAL5MwfG21OLexHbuwzic",
+      "subComponents": [
+        {
+          "description": []
+        }
+      ],
+      "subtitle": "Hacettepe Üniversitesi Yapay Zeka Topluluğu",
+      "title": "AI Club Datathon'25 Second Prize"
+    },
+    {
+      "breakdown": false,
+      "companyId": "14025979",
+      "companyLink1": "https://www.linkedin.com/company/ai-business-school/",
+      "companyUrn": "urn:li:fsd_company:14025979",
+      "issued": "Issued Nov 2024",
+      "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFDZnLYhTfU4Q/company-logo_400_400/company-logo_400_400/0/1719921413341/ai_business_school_logo?e=1779321600&v=beta&t=z9Ck6iWUjF0S7mI6ro9qpQGwQtnIGhhrzzwJs7HYX7E",
+      "subComponents": [
+        {
+          "description": []
+        }
+      ],
+      "subtitle": "AI Business School",
+      "title": "Deep Learning Bootcamp"
+    },
+    {
+      "breakdown": false,
+      "companyId": "34917076",
+      "companyLink1": "https://www.linkedin.com/company/btk-akademi/",
+      "companyUrn": "urn:li:fsd_company:34917076",
+      "issued": "Issued Jul 2024",
+      "logo": "https://media.licdn.com/dms/image/v2/D560BAQFzhoINQt47kw/company-logo_400_400/company-logo_400_400/0/1733413650231?e=1779321600&v=beta&t=GwU0PQnpikk7MY1R1f5lN_cfRn61Rxf_Bx0PcoF0fZM",
+      "subComponents": [
+        {
+          "description": []
+        }
+      ],
+      "subtitle": "BTK Akademi",
+      "title": "Introduction to 2D Game Development with Unity"
+    },
+    {
+      "breakdown": false,
+      "companyId": "18094181",
+      "companyLink1": "https://www.linkedin.com/company/milliegitimbakanligi/",
+      "companyUrn": "urn:li:fsd_company:18094181",
+      "issued": "Issued Jul 2024",
+      "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFGBeYphcyqBg/company-logo_400_400/B4EZh.zLtkGUAc-/0/1754474004095/milliegitimbakanligi_logo?e=1779321600&v=beta&t=rNYGgp0Sqy95d_AUoZSbTLVneejOVcSpUvAahoE5ANs",
+      "subComponents": [
+        {
+          "description": []
+        }
+      ],
+      "subtitle": "Millî Eğitim Bakanlığı",
+      "title": "Oil Painting and Charcoal Drawing Course"
+    },
+    {
+      "breakdown": false,
+      "companyId": "14025979",
+      "companyLink1": "https://www.linkedin.com/company/ai-business-school/",
+      "companyUrn": "urn:li:fsd_company:14025979",
+      "issued": "Issued Jun 2024",
+      "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFDZnLYhTfU4Q/company-logo_400_400/company-logo_400_400/0/1719921413341/ai_business_school_logo?e=1779321600&v=beta&t=z9Ck6iWUjF0S7mI6ro9qpQGwQtnIGhhrzzwJs7HYX7E",
+      "subComponents": [
+        {
+          "description": []
+        }
+      ],
+      "subtitle": "AI Business School",
+      "title": "Introduction to Artificial Intelligence"
+    }
+  ],
+  "maidenName": null,
+  "memorialized": false,
+  "organizations": [],
+  "premium": true,
+  "primaryLocale": {
+    "country": "TR",
+    "language": "tr"
+  },
+  "profilePic": "https://media.licdn.com/dms/image/v2/D4D03AQF-EzlVAlRENg/profile-displayphoto-shrink_800_800/B4DZSM0oBNGUAc-/0/1737529393670?e=1779321600&v=beta&t=yoC0twkRVwAeXHYuuhC1uhHsGLVajDkMhzna94dEs58",
+  "profilePicAllDimensions": [
+    {
+      "expiresAt": 1779321600000,
+      "height": 200,
+      "image": "https://media.licdn.com/dms/image/v2/D4D03AQF-EzlVAlRENg/profile-displayphoto-shrink_200_200/B4DZSM0oBNGUAY-/0/1737529393665?e=1779321600&v=beta&t=md5glZc9mhhNovtcmqmBG9Il-LdoaVf3y3qDwsWNAhw",
+      "width": 200
+    },
+    {
+      "expiresAt": 1779321600000,
+      "height": 400,
+      "image": "https://media.licdn.com/dms/image/v2/D4D03AQF-EzlVAlRENg/profile-displayphoto-shrink_400_400/B4DZSM0oBNGUAg-/0/1737529393665?e=1779321600&v=beta&t=qcPGOOlv5cCy6sXIbtLoQUpSi5Lari5XafzkEJpNhd8",
+      "width": 400
+    },
+    {
+      "expiresAt": 1779321600000,
+      "height": 100,
+      "image": "https://media.licdn.com/dms/image/v2/D4D03AQF-EzlVAlRENg/profile-displayphoto-shrink_100_100/B4DZSM0oBNGUAU-/0/1737529393665?e=1779321600&v=beta&t=BtQIWWg3QGsJuqQRKTAjCYJ-Ow4NjkKooAd3GoktwsQ",
+      "width": 100
+    },
+    {
+      "expiresAt": 1779321600000,
+      "height": 560,
+      "image": "https://media.licdn.com/dms/image/v2/D4D03AQF-EzlVAlRENg/profile-displayphoto-shrink_800_800/B4DZSM0oBNGUAc-/0/1737529393670?e=1779321600&v=beta&t=yoC0twkRVwAeXHYuuhC1uhHsGLVajDkMhzna94dEs58",
+      "width": 560
+    }
+  ],
+  "projects": [],
+  "publicIdentifier": "myzz",
+  "showPremiumSubscriberBadge": true,
+  "skills": [
+    {
+      "subComponenets": [
+        {
+          "description": []
+        }
+      ],
+      "title": "CNN"
+    },
+    {
+      "subComponenets": [
+        {
+          "description": []
+        }
+      ],
+      "title": "Diffusion Models"
+    },
+    {
+      "subComponenets": [
+        {
+          "description": []
+        }
+      ],
+      "title": "Girişimcilik"
+    },
+    {
+      "subComponenets": [
+        {
+          "description": []
+        }
+      ],
+      "title": "Almayla Artırılmış Üretim (RAG)"
+    },
+    {
+      "subComponenets": [
+        {
+          "description": []
+        }
+      ],
+      "title": "Pytorch"
+    },
+    {
+      "subComponenets": [
+        {
+          "description": []
+        }
+      ],
+      "title": "Transformer Models"
+    },
+    {
+      "subComponenets": [
+        {
+          "description": []
+        }
+      ],
+      "title": "Huggingface"
+    },
+    {
+      "subComponenets": [
+        {
+          "description": []
+        }
+      ],
+      "title": "Sanat"
+    },
+    {
+      "subComponenets": [
+        {
+          "description": []
+        }
+      ],
+      "title": "Proje Yönetimi"
+    },
+    {
+      "subComponenets": [
+        {
+          "description": []
+        }
+      ],
+      "title": "Liderlik"
+    },
+    {
+      "subComponenets": [
+        {
+          "description": []
+        }
+      ],
+      "title": "Veri Yapıları"
+    },
+    {
+      "subComponenets": [
+        {
+          "description": []
+        }
+      ],
+      "title": "Algoritmalar"
+    },
+    {
+      "subComponenets": [
+        {
+          "description": []
+        }
+      ],
+      "title": "Veri Analizi"
+    },
+    {
+      "subComponenets": [
+        {
+          "description": []
+        }
+      ],
+      "title": "Makine Öğrenimi"
+    },
+    {
+      "subComponenets": [
+        {
+          "description": []
+        }
+      ],
+      "title": "Uygulamalı Matematik"
+    },
+    {
+      "subComponenets": [
+        {
+          "description": []
+        }
+      ],
+      "title": "Java"
+    },
+    {
+      "subComponenets": [
+        {
+          "description": []
+        }
+      ],
+      "title": "Oyun Geliştirme"
+    },
+    {
+      "subComponenets": [
+        {
+          "description": []
+        }
+      ],
+      "title": "C"
+    },
+    {
+      "subComponenets": [
+        {
+          "description": []
+        }
+      ],
+      "title": "Çizim"
+    },
+    {
+      "subComponenets": [
+        {
+          "description": []
+        }
+      ],
+      "title": "Yağlı Boya"
+    }
+  ],
+  "tempStatus": null,
+  "urn": "ACoAADcSzyMBUV7aSeCnnR1DXVqPlaswLOi6EJI",
+  "volunteerAndAwards": [
+    {
+      "breakdown": false,
+      "caption": "Jan 2026 - Present · ",
+      "companyId": "111101223",
+      "companyLink1": "https://www.linkedin.com/company/servi-ekibi/",
+      "companyUrn": "urn:li:fsd_company:111101223",
+      "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQG5OSdHH0kIwQ/company-logo_100_100/B4DZvNldRuIAAU-/0/1768680707724/servi_community_logo?e=1779321600&v=beta&t=Fd2297sBU7W-Xc3H5uyAuS_nFOdK-xpLHmpC5iJjhkE",
+      "subComponenets": [
+        {
+          "description": []
+        }
+      ],
+      "subtitle": "Servi",
+      "title": "Open Source Contributor"
+    },
+    {
+      "breakdown": false,
+      "caption": "Jan 2025 - Present · 1 yr",
+      "companyId": "105137266",
+      "companyLink1": "https://www.linkedin.com/company/happyhackingspace/",
+      "companyUrn": "urn:li:fsd_company:105137266",
+      "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQH_AlrAMxnFyw/company-logo_400_400/B4DZoINMq0GsAg-/0/1761074269292/happyhackingspace_logo?e=1779321600&v=beta&t=72jYkxRnbV_tsfoBcc1p7N0dLYdwfGZvVW1rBD-AUpU",
+      "subComponenets": [
+        {
+          "description": []
+        }
+      ],
+      "subtitle": "Happy Hacking Space",
+      "title": "Research and Development Member"
+    },
+    {
+      "breakdown": false,
+      "caption": "Jun 2024 - Present · 1 yr 7 mos",
+      "companyId": "105382247",
+      "companyLink1": "https://www.linkedin.com/company/milgetybu/",
+      "companyUrn": "urn:li:fsd_company:105382247",
+      "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQEMRUe-zaE_8g/company-logo_400_400/company-logo_400_400/0/1729019631925?e=1779321600&v=beta&t=ExCOkYoMOjBcYLN3Vt4sgEIUPFFyY85aM_WgHJZ9oAg",
+      "subComponenets": [
+        {
+          "description": []
+        }
+      ],
+      "subtitle": "Milli Gençlik Topluluğu",
+      "title": "AYBÜ Komisyonu Eğitim Koordinatörü"
+    }
+  ],
+  "profileUrl": "https://www.linkedin.com/in/myzz",
+  "input": "myzz",
+  "username": "myzz",
+  "success": true
+}]

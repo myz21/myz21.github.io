@@ -1,0 +1,38 @@
+.wiki-inactive-fx-layer {
+    pointer-events: none;
+    z-index: 1000;
+    position: fixed;
+    inset: 0;
+}
+
+.wiki-inactive-fx-item {
+    text-shadow: 0 1px #ffffffb3;
+    font-weight: 700;
+    animation: 1.05s ease-out forwards wiki-float-up;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+
+.wiki-inactive-fx-plus {
+    color: #36c;
+    font-size: .85rem;
+}
+
+.wiki-inactive-fx-emoji {
+    font-size: 1rem;
+}
+
+@keyframes wiki-float-up {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(.85);
+    }
+    20% {
+        opacity: 1;
+        transform: translate(-50%, -78%) scale(1);
+    }
+    to {
+        opacity: 0;
+        transform: translate(-50%, -165%) scale(1.04);
+    }
+}

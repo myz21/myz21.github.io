@@ -1,0 +1,310 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - button "Table of contents" [ref=e4] [cursor=pointer]:
+      - img [ref=e5]
+    - generic [ref=e7]: Muhammed Yıldız
+    - generic [ref=e9]:
+      - img [ref=e10]
+      - textbox "Search about Muhammed" [ref=e12]
+    - button "Switch to dark mode" [ref=e13] [cursor=pointer]:
+      - img [ref=e14]
+      - generic [ref=e16]: Appearance
+    - button "Talk" [ref=e18] [cursor=pointer]
+  - generic [ref=e19]:
+    - banner [ref=e20]:
+      - generic [ref=e21]:
+        - button "Main menu" [ref=e22] [cursor=pointer]:
+          - img [ref=e23]
+        - link "Wikipedia Wikipedia The Free Encyclopedia" [ref=e27] [cursor=pointer]:
+          - /url: "#"
+          - img "Wikipedia" [ref=e28]
+          - generic [ref=e29]:
+            - generic [ref=e30]: Wikipedia
+            - generic [ref=e31]: The Free Encyclopedia
+      - generic [ref=e34]:
+        - img [ref=e35]
+        - textbox "Search about Muhammed" [ref=e37]
+      - generic [ref=e38]:
+        - button "Switch to dark mode" [ref=e39] [cursor=pointer]:
+          - img [ref=e40]
+          - generic [ref=e42]: Appearance
+        - generic [ref=e43]: "|"
+        - link "Donate" [ref=e44] [cursor=pointer]:
+          - /url: "#"
+        - generic [ref=e45]: "|"
+        - link "Create account" [ref=e46] [cursor=pointer]:
+          - /url: "#"
+    - generic [ref=e48]:
+      - heading "Muhammed Yıldız" [level=1] [ref=e50]
+      - paragraph [ref=e51]: From Wikipedia, the free encyclopedia
+      - generic [ref=e52]:
+        - list [ref=e53]:
+          - listitem [ref=e54] [cursor=pointer]: Article
+          - listitem [ref=e55] [cursor=pointer]:
+            - button "Talk" [ref=e56]
+        - generic [ref=e57]:
+          - list [ref=e58]:
+            - listitem [ref=e59] [cursor=pointer]: Read
+            - listitem [ref=e60] [cursor=pointer]: View source
+            - listitem [ref=e61] [cursor=pointer]: View history
+          - button "Tools" [ref=e62] [cursor=pointer]
+      - generic [ref=e63]:
+        - complementary [ref=e64]:
+          - generic [ref=e65]: Muhammed Yıldız
+          - generic [ref=e66]: Undergraduate Researcher
+          - generic [ref=e67]:
+            - img "Atique ul Hussain Zaidi" [ref=e68]
+            - generic [ref=e69]: Muhammed Yıldız, 2026
+          - table [ref=e70]:
+            - rowgroup [ref=e71]:
+              - row "Email mhmmdyildiz@proton.me" [ref=e72]:
+                - cell "Email" [ref=e73]
+                - cell "mhmmdyildiz@proton.me" [ref=e74]:
+                  - link "mhmmdyildiz@proton.me" [ref=e75] [cursor=pointer]:
+                    - /url: mailto:mhmmdyildiz@proton.me
+              - row "Phone +90 555 192 6713" [ref=e76]:
+                - cell "Phone" [ref=e77]
+                - cell "+90 555 192 6713" [ref=e78]
+              - row "LinkedIn linkedin.com/in/myzz" [ref=e79]:
+                - cell "LinkedIn" [ref=e80]
+                - cell "linkedin.com/in/myzz" [ref=e81]:
+                  - link "linkedin.com/in/myzz" [ref=e82] [cursor=pointer]:
+                    - /url: https://linkedin.com/in/myzz
+              - row "GitHub github.com/myz21" [ref=e83]:
+                - cell "GitHub" [ref=e84]
+                - cell "github.com/myz21" [ref=e85]:
+                  - link "github.com/myz21" [ref=e86] [cursor=pointer]:
+                    - /url: https://github.com/myz21
+              - row "Instagram www.instagram.com/delusional.myz/" [ref=e87]:
+                - cell "Instagram" [ref=e88]
+                - cell "www.instagram.com/delusional.myz/" [ref=e89]:
+                  - link "www.instagram.com/delusional.myz/" [ref=e90] [cursor=pointer]:
+                    - /url: https://www.instagram.com/delusional.myz/
+              - row "Education B.Sc. in Computer Engineering, Ankara Yıldırım Beyazıt University, Ankara (2023–2027)" [ref=e91]:
+                - cell "Education" [ref=e92]
+                - cell "B.Sc. in Computer Engineering, Ankara Yıldırım Beyazıt University, Ankara (2023–2027)" [ref=e93]
+              - row "CGPA 3.24/4.0" [ref=e94]:
+                - cell "CGPA" [ref=e95]
+                - cell "3.24/4.0" [ref=e96]
+          - generic [ref=e97]: Skills
+          - table [ref=e98]:
+            - rowgroup [ref=e99]:
+              - row "AI/ML Frameworks PyTorch, TensorFlow, Scikit-learn, LangChain, Hugging Face, OpenCV, YOLO" [ref=e100]:
+                - cell "AI/ML Frameworks" [ref=e101]
+                - cell "PyTorch, TensorFlow, Scikit-learn, LangChain, Hugging Face, OpenCV, YOLO" [ref=e102]
+              - row "Tools & DevOps Git, Docker, FastAPI, Streamlit, Pandas, NumPy, Matplotlib, Linux, Weights & Biases" [ref=e103]:
+                - cell "Tools & DevOps" [ref=e104]
+                - cell "Git, Docker, FastAPI, Streamlit, Pandas, NumPy, Matplotlib, Linux, Weights & Biases" [ref=e105]
+              - row "Languages Python, C++, Java, SQL" [ref=e106]:
+                - cell "Languages" [ref=e107]
+                - cell "Python, C++, Java, SQL" [ref=e108]
+        - paragraph [ref=e110]: Muhammed Yıldız, Computer Engineering student at Ankara Yıldırım Beyazıt University focused on NLP, computer vision, and generative AI. Leads the Zenith AI Team and builds research prototypes and AI web services. Background in drawing and illustration; shares work at instagram.com/delusional.myz.
+        - generic [ref=e111]:
+          - generic [ref=e112]:
+            - button "Hide table of contents" [ref=e113] [cursor=pointer]:
+              - img [ref=e114]
+            - generic [ref=e115]: Contents
+            - button "hide" [ref=e116] [cursor=pointer]
+          - list [ref=e117]:
+            - listitem [ref=e118]:
+              - link "(Top)" [ref=e119] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e120]:
+              - link "1Education" [ref=e121] [cursor=pointer]:
+                - /url: "#education"
+            - listitem [ref=e122]:
+              - link "2Skills" [ref=e123] [cursor=pointer]:
+                - /url: "#skills"
+            - listitem [ref=e124]:
+              - link "3Experience" [ref=e125] [cursor=pointer]:
+                - /url: "#experience"
+            - listitem [ref=e126]:
+              - link "4Projects" [ref=e127] [cursor=pointer]:
+                - /url: "#projects"
+              - list [ref=e128]:
+                - listitem [ref=e129]:
+                  - link "4.1AI-Based Lipreader" [ref=e130] [cursor=pointer]:
+                    - /url: "#projects"
+                    - generic [ref=e131]: "4.1"
+                    - text: AI-Based Lipreader
+                - listitem [ref=e132]:
+                  - link "4.2GesturePresent" [ref=e133] [cursor=pointer]:
+                    - /url: "#projects"
+                    - generic [ref=e134]: "4.2"
+                    - text: GesturePresent
+                - listitem [ref=e135]:
+                  - link "4.3COMSATS Plus" [ref=e136] [cursor=pointer]:
+                    - /url: "#projects"
+                    - generic [ref=e137]: "4.3"
+                    - text: COMSATS Plus
+                - listitem [ref=e138]:
+                  - link "4.4Pawsy" [ref=e139] [cursor=pointer]:
+                    - /url: "#projects"
+                    - generic [ref=e140]: "4.4"
+                    - text: Pawsy
+                - listitem [ref=e141]:
+                  - link "4.5Group Selecta" [ref=e142] [cursor=pointer]:
+                    - /url: "#projects"
+                    - generic [ref=e143]: "4.5"
+                    - text: Group Selecta
+                - listitem [ref=e144]:
+                  - link "4.6Uniserve App" [ref=e145] [cursor=pointer]:
+                    - /url: "#projects"
+                    - generic [ref=e146]: "4.6"
+                    - text: Uniserve App
+            - listitem [ref=e147]:
+              - link "5Gallery" [ref=e148] [cursor=pointer]:
+                - /url: "#gallery"
+            - listitem [ref=e149]:
+              - link "6References" [ref=e150] [cursor=pointer]:
+                - /url: "#references"
+            - listitem [ref=e151]:
+              - link "7External links" [ref=e152] [cursor=pointer]:
+                - /url: "#contact-ext"
+        - generic [ref=e153]:
+          - heading "Education" [level=2] [ref=e154]
+          - list [ref=e155]:
+            - listitem [ref=e156]: "B.Sc. in Computer Engineering, Ankara Yıldırım Beyazıt University, Ankara (2023–2027) — CGPA: 3.24/4.0"
+            - listitem [ref=e157]: Dentistry (left program), Fırat University (2021–2023)
+        - generic [ref=e158]:
+          - heading "Skills" [level=2] [ref=e159]
+          - list [ref=e160]:
+            - listitem [ref=e161]: "AI/ML Frameworks: PyTorch, TensorFlow, Scikit-learn, LangChain, Hugging Face, OpenCV, YOLO"
+            - listitem [ref=e162]: "Tools & DevOps: Git, Docker, FastAPI, Streamlit, Pandas, NumPy, Matplotlib, Linux, Weights & Biases"
+            - listitem [ref=e163]: "Languages: Python, C++, Java, SQL"
+        - generic [ref=e164]:
+          - heading "Experience" [level=2] [ref=e165]
+          - list [ref=e166]:
+            - listitem [ref=e167]: Undergraduate Researcher, Hacettepe Biological Data Science Lab (2025-08–Present) — Developed ProtMamba, a state-space model for protein language modeling. Built scalable PyTorch data pipelines for 60M+ sequences and tracked experiments with Weights & Biases.
+            - listitem [ref=e168]: Intern, Nanominds (2025-07–2025-08) — Researched AI workflows in venture capital and hybrid RAG (dense + sparse retrieval).
+            - listitem [ref=e169]: Team Lead & Computer Vision Engineer, Zenith AI Team (2025-03–Present) — Led vision-based navigation for a GPS-denied UAV challenge; optimized YOLO models and achieved finalist status at TEKNOFEST.
+            - listitem [ref=e170]: Part Time Working Student (Drawing Instructor), Ankara Yıldırım Beyazıt University (2025-03–2025-05) — Taught pencil drawing fundamentals and built a student drawing community.
+            - listitem [ref=e171]: Core Team Member of AI Department, AYBÜ Bilim ve Teknoloji Topluluğu (2024-05–2025-03) — Supported AI community activities and events.
+            - listitem [ref=e172]: Member of Cyber Department, AYBÜ Bilim ve Teknoloji Topluluğu (2023-11–2024-05) — Member of the cyber department community.
+        - generic [ref=e173]:
+          - heading "Projects" [level=2] [ref=e174]
+          - list [ref=e175]:
+            - listitem [ref=e176]: nanoGPT - Pytorch/Numpy (2026) — Built a GPT language model from scratch with decoder-only transformer architecture and character-level tokenization. Trained for 50 epochs on RTX A5000.
+            - listitem [ref=e177]: "DoctorGPT: Medical Assistant - LangChain · Gemini · FastAPI (2025) — Engineered a conversational AI web service with structured responses and context-aware interaction."
+            - listitem [ref=e178]: E-Corp Customer Insight Analysis - 2nd Place (2025) — Achieved 0.92 R-squared revenue prediction using AdaBoost with extensive EDA.
+            - listitem [ref=e179]: The Traitor — Client/Server Game - C++/SFML (2025) — Built SFML client UI and integrated TCP client-server networking for multiplayer gameplay.
+        - generic [ref=e180]:
+          - heading "Gallery" [level=2] [ref=e181]
+          - region [ref=e183]:
+            - generic [ref=e185]:
+              - group [ref=e186]:
+                - figure "Profile portrait" [ref=e187]:
+                  - img "Profile photo" [ref=e188]
+                  - generic [ref=e189]: Profile portrait
+              - group [ref=e190]:
+                - figure "Gallery image 1" [ref=e191]:
+                  - img "Featured work 1" [ref=e192]
+                  - generic [ref=e193]: Gallery image 1
+              - group [ref=e194]:
+                - figure "Gallery image 2" [ref=e195]:
+                  - img "Featured work 2" [ref=e196]
+                  - generic [ref=e197]: Gallery image 2
+              - group [ref=e198]:
+                - figure "Gallery image 3" [ref=e199]:
+                  - img "Featured work 3" [ref=e200]
+                  - generic [ref=e201]: Gallery image 3
+              - group [ref=e202]:
+                - figure "Gallery image 4" [ref=e203]:
+                  - img "Featured work 4" [ref=e204]
+                  - generic [ref=e205]: Gallery image 4
+              - group [ref=e206]:
+                - figure "Gallery image 5" [ref=e207]:
+                  - img "Featured work 5" [ref=e208]
+                  - generic [ref=e209]: Gallery image 5
+              - group [ref=e210]:
+                - figure "Os Calcaneus" [ref=e211]:
+                  - 'link "Instagram post: Os Calcaneus" [ref=e212] [cursor=pointer]':
+                    - /url: https://www.instagram.com/p/C8J_zM3N-VF/?img_index=1
+                    - 'img "Instagram post: Os Calcaneus" [ref=e213]'
+                  - generic [ref=e214]: Os Calcaneus
+              - group [ref=e215]:
+                - figure "Cyberbullies in their 'real' stuff... Stay creative!" [ref=e216]:
+                  - 'link "Instagram post: Cyberbullies in their ''real'' stuff... Stay creative!" [ref=e217] [cursor=pointer]':
+                    - /url: https://www.instagram.com/p/C4NfydWN8oI/
+                    - 'img "Instagram post: Cyberbullies in their ''real'' stuff... Stay creative!" [ref=e218]'
+                  - generic [ref=e219]: Cyberbullies in their 'real' stuff... Stay creative!
+              - group [ref=e220]:
+                - figure "Os femoris aesthetics" [ref=e221]:
+                  - 'link "Instagram post: Os femoris aesthetics" [ref=e222] [cursor=pointer]':
+                    - /url: https://www.instagram.com/p/C8E82rltxZ6/?img_index=2
+                    - 'img "Instagram post: Os femoris aesthetics" [ref=e223]'
+                  - generic [ref=e224]: Os femoris aesthetics
+              - group [ref=e225]:
+                - figure "Instagram post" [ref=e226]:
+                  - 'link "Instagram post: Instagram post" [ref=e227] [cursor=pointer]':
+                    - /url: https://www.instagram.com/p/C4SSgYgNSYx/?img_index=1
+                    - 'img "Instagram post: Instagram post" [ref=e228]'
+                  - generic [ref=e229]: Instagram post
+              - group [ref=e230]:
+                - figure "Background artwork" [ref=e231]:
+                  - img "Background texture" [ref=e232]
+                  - generic [ref=e233]: Background artwork
+            - button "Previous slide" [disabled]:
+              - img
+              - generic: Previous slide
+            - button "Next slide" [ref=e234] [cursor=pointer]:
+              - img [ref=e235]
+              - generic [ref=e237]: Next slide
+        - generic [ref=e238]:
+          - heading "References" [level=2] [ref=e239]
+          - list [ref=e241]:
+            - listitem [ref=e242]:
+              - text: 1. LinkedIn profile.
+              - link "linkedin.com/in/myzz" [ref=e243] [cursor=pointer]:
+                - /url: https://linkedin.com/in/myzz
+              - text: . Retrieved 1 May 2026.
+            - listitem [ref=e244]:
+              - text: 2. GitHub profile and repositories.
+              - link "github.com/myz21" [ref=e245] [cursor=pointer]:
+                - /url: https://github.com/myz21
+              - text: . Retrieved 1 May 2026.
+            - listitem [ref=e246]:
+              - text: 3. nanoGPT project.
+              - link "github.com/myz21/GPT" [ref=e247] [cursor=pointer]:
+                - /url: https://github.com/myz21/GPT
+              - text: . Retrieved 1 May 2026.
+            - listitem [ref=e248]:
+              - text: 4. DoctorGPT project.
+              - link "github.com/myz21/DoctorGPT" [ref=e249] [cursor=pointer]:
+                - /url: https://github.com/myz21/DoctorGPT
+              - text: . Retrieved 1 May 2026.
+            - listitem [ref=e250]:
+              - text: 5. E-Corp Customer Insight Analysis post.
+              - link "lnkd.in/dAXxunMu" [ref=e251] [cursor=pointer]:
+                - /url: https://lnkd.in/dAXxunMu
+              - text: . Retrieved 1 May 2026.
+            - listitem [ref=e252]:
+              - text: 6. The Traitor project.
+              - link "github.com/M-Enes/OOP_Group19" [ref=e253] [cursor=pointer]:
+                - /url: https://github.com/M-Enes/OOP_Group19
+              - text: . Retrieved 1 May 2026.
+            - listitem [ref=e254]:
+              - text: 7. Artist portfolio (Instagram).
+              - link "instagram.com/delusional.myz" [ref=e255] [cursor=pointer]:
+                - /url: https://www.instagram.com/delusional.myz/
+              - text: . Retrieved 1 May 2026.
+        - generic [ref=e256]:
+          - heading "Why Wiki for this Portfolio?" [level=2] [ref=e257]
+          - generic [ref=e258]:
+            - 'heading "One goal: what would be the most effective structure for a recruiter to parse and understand my background and skills?" [level=4] [ref=e259]'
+            - paragraph [ref=e260]: Wikipedia is perhaps the MOST easily recognized interface on the internet - it has iterated through hundreds of designs to create the perfect balance of information density and readability, and using it presents my information in a manner any persons mind is instantly familiar too. I'm sacrificing animations and floating stars for a nearly instant recognition in the readers mind.
+        - generic [ref=e261]:
+          - text: "Categories:"
+          - link "Turkish AI researchers" [ref=e262] [cursor=pointer]:
+            - /url: "#"
+          - link "Computer vision engineers" [ref=e263] [cursor=pointer]:
+            - /url: "#"
+          - link "Python developers" [ref=e264] [cursor=pointer]:
+            - /url: "#"
+          - link "C++ programmers" [ref=e265] [cursor=pointer]:
+            - /url: "#"
+          - link "AI/ML engineers" [ref=e266] [cursor=pointer]:
+            - /url: "#"
+    - contentinfo [ref=e267]:
+      - list [ref=e268]:
+        - listitem [ref=e269]: This page was last edited on 1 May 2026, at 00:00 (TRT).
