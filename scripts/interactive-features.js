@@ -187,8 +187,8 @@
         let index = 0;
 
         const setDisabled = () => {
-            prevBtn.disabled = index <= 0;
-            nextBtn.disabled = index >= slides.length - 1;
+            prevBtn.disabled = false;
+            nextBtn.disabled = false;
         };
 
         const update = () => {
@@ -201,15 +201,19 @@
         const goPrev = () => {
             if (index > 0) {
                 index -= 1;
-                update();
+            } else {
+                index = slides.length - 1;
             }
+            update();
         };
 
         const goNext = () => {
             if (index < slides.length - 1) {
                 index += 1;
-                update();
+            } else {
+                index = 0;
             }
+            update();
         };
 
         prevBtn.addEventListener('click', (event) => {
