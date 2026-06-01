@@ -1,0 +1,33 @@
+[
+  {
+    "year": 2026,
+    "side": "right",
+    "logo": "assets/servi_logo.jpg",
+    "title": "🌐 Open Source Contributor at Servi",
+    "date": "Jan 2026 →",
+    "body": "Developing the backend of a full-stack open-source project focused on promoting technological awareness. Building TechTipsWiki to explain technologies transparently.",
+    "link": "https://www.linkedin.com/company/servi-ekibi/",
+    "link_label": "LinkedIn"
+  },
+  {
+    "year": 2025,
+    "side": "left",
+    "logo": "assets/hhs_logo.jpg",
+    "title": "💻 R&D Member at Happy Hacking Space",
+    "date": "Jan 2025 →",
+    "body": "After placing 2nd in the first-ever community Code Jam, I joined their R&D team to contribute to the hackerspace ecosystem.",
+    "media": ["assets/hhs_mmet.jpg", "assets/hhs_logo.jpg"],
+    "link": "https://www.linkedin.com/company/happyhackingspace",
+    "link_label": "LinkedIn"
+  },
+  {
+    "side": "right",
+    "logo": "assets/milget-logo.jpg",
+    "title": "🤝 Head of Education Coordination at Milli Gençlik Topluluğu (AGD)",
+    "date": "Jun 2024",
+    "body": "Co-founded this university club from just 2 members and grew it into the most active AGD branch in Ankara.",
+    "media": ["assets/483906555_18261403669286834_4706971470279356965_n.webp", "assets/milget_logo.jpg"],
+    "link": "https://www.linkedin.com/company/milgetybu/",
+    "link_label": "LinkedIn"
+  }
+]

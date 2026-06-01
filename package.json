@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "check:fonts": "python scripts/analyze_base64.py",
     "normalize:fonts": "python scripts/normalize_fonts.py",
-    "build:pages": "python scripts/build_pages.py"
+    "build:pages": "python scripts/render_site.py",
+    "build:site": "python scripts/render_site.py"
   },
   "devDependencies": {
     "vite": "^5.4.19"

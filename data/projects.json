@@ -1,0 +1,44 @@
+[
+  {
+    "title": "TechTipsWiki",
+    "href": "https://github.com/myz21/TechTipsWiki",
+    "date": "2026-05",
+    "tech": ["Next.js", "TypeScript", "Tailwind", "FastAPI"],
+    "desc": "Open-source full-stack platform focused on explaining modern technologies clearly, transparently, and fast for curious learners."
+  },
+  {
+    "title": "ZenithAI",
+    "href": "https://github.com/myz21",
+    "date": "2025-09",
+    "tech": ["Python", "YOLO", "ORB", "Computer Vision"],
+    "desc": "Competition-oriented aviation AI work combining object detection and visual odometry experiments for autonomous systems."
+  },
+  {
+    "title": "Medical Assistant Chatbot",
+    "href": "https://github.com/myz21",
+    "date": "2025-04",
+    "tech": ["FastAPI", "LangChain", "Pydantic"],
+    "desc": "Personalized conversational AI assistant shaped by demographics and chat history, served through a practical web interface."
+  },
+  {
+    "title": "micrograd",
+    "href": "https://github.com/myz21/micrograd",
+    "date": "2025-04",
+    "tech": ["Python", "NumPy"],
+    "desc": "A from-scratch neural network learning project inspired by Andrej Karpathy to understand core backpropagation mechanics."
+  },
+  {
+    "title": "Spikeflight",
+    "href": "https://github.com/myz21/Spikeflight",
+    "date": "2025-02",
+    "tech": ["C#", "Unity"],
+    "desc": "2D platformer prototype with enemy baiting, spike traps, and scene-based gameplay foundations built in Unity."
+  },
+  {
+    "title": "The Traitor",
+    "href": "https://github.com/myz21/The-Traitor",
+    "date": "2025-01",
+    "tech": ["C++", "SFML"],
+    "desc": "Multiplayer strategy game project where hidden-role deduction meets country management and collaborative gameplay design."
+  }
+]

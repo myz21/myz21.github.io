@@ -1,0 +1,51 @@
+[
+  {
+    "title": "TEKNOFEST Aviation AI",
+    "desc": "As the Team Captain of Zenith AI, we developed an object detection (YOLO) and ORB-based visual odometry system for flying cars, securing a spot in the finals.",
+    "links": [
+      {"href": "https://www.linkedin.com/feed/update/urn:li:activity:7365358690230501376/", "type": "external"}
+    ],
+    "media": ["assets/featured_4.png", "assets/zenith.jpg"]
+  },
+  {
+    "title": "Vodafone AI Ideathon",
+    "desc": "Won 3rd place by conceptualizing an innovative AI solution and presenting its strategic importance directly at the Vodafone Headquarters.",
+    "links": [
+      {"href": "https://lnkd.in/dZVzU3Wx", "type": "external"}
+    ],
+    "media": ["assets/featured_0.png", "assets/IMG-20251215-WA0045.jpg"]
+  },
+  {
+    "title": "ODTU Sports Hackathon",
+    "desc": "Won 3rd place by building SkateSync AI, the first platform to unify voice and vision AI for figure skating coaching.",
+    "links": [
+      {"href": "https://github.com/myz21/metu-sports-hackhaton", "type": "github"}
+    ],
+    "media": ["assets/_ALP7587.jpg"]
+  },
+  {
+    "title": "Happy Hacking Space Code Jam",
+    "desc": "Achieved 2nd place in the first-ever Code Jam organized by the community.",
+    "links": [
+      {"href": "https://www.linkedin.com/posts/myzz_dear-connections-i-finished-the-code-jam-activity-7290399937270308865-ghH9/", "type": "external"}
+    ],
+    "media": ["assets/featured_2.png", "assets/hhs2.jpeg"]
+  },
+  {
+    "title": "Hacettepe AI Club Datathon",
+    "desc": "Won 2nd place by performing extensive customer insight analysis and exploratory data analysis using Pandas and NumPy.",
+    "links": [
+      {"href": "https://lnkd.in/dAXxunMu", "type": "external"}
+    ],
+    "media": ["assets/featured_3.png", "./assets/datathon.mp4"]
+  },
+  {
+    "title": "Global AI Hub - Yapay Zekaya Giriş Bootcamp",
+    "desc": "Selected as one of the top 3 projects.",
+    "links": [
+      {"href": "https://lnkd.in/dZPajgkh", "type": "external"},
+      {"href": "https://lnkd.in/dzPcf-uJ", "type": "youtube"}
+    ],
+    "media": ["assets/featured_1.png"]
+  }
+]

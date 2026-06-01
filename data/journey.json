@@ -1,0 +1,52 @@
+[
+  {
+    "year": 2026,
+    "side": "right",
+    "logo": "assets/hubio-logo.png",
+    "title": "🔬 Undergraduate Researcher at Biological Data Science Lab",
+    "date": "Aug 2025 →",
+    "body": "Working as a TÜBİTAK Undergraduate Researcher under Prof. Dr. Tunca Doğan at Hacettepe University. Adapting state-of-the-art LLMs to protein generation.",
+    "link": "https://hubiodatalab.github.io/",
+    "link_label": "HuBio Data Lab"
+  },
+  {
+    "side": "left",
+    "logo": "assets/nanomindsai_logo.jpeg",
+    "title": "💼 AI Engineering Intern at nanominds",
+    "date": "Jul 2025",
+    "body": "Researched AI workflows in Venture Capital and analyzed AI use cases across the investment process."
+  },
+  {
+    "side": "right",
+    "logo": "assets/aybu.png",
+    "title": "✏️ Part-Time Art Instructor at AYBU",
+    "date": "Mar 2025",
+    "body": "Taught students the fundamentals of pencil drawing — perspective to anatomical sketches."
+  },
+  {
+    "year": 2025,
+    "side": "left",
+    "logo": "assets/ZenithAI.png",
+    "title": "🚀 AI Team Lead at BİLTEK AI & Zenith AI",
+    "date": "Sep 2024",
+    "body": "Founded Zenith AI competition team and led the TEKNOFEST 2025 AI in Aviation challenge — built YOLO + ORB visual odometry for flying cars.",
+    "media": ["assets/zenith.jpg"]
+  },
+  {
+    "year": 2024,
+    "side": "right",
+    "logo": "assets/aybu.png",
+    "title": "💻 Computer Engineering at AYBU",
+    "date": "Oct 2023",
+    "body": "Transferred to Computer Engineering at Ankara Yıldırım Beyazıt University, fulfilling a childhood dream."
+  },
+  {
+    "year": 2023,
+    "side": "left",
+    "logo": "assets/dishekimligi.png",
+    "title": "🦷 Dropped Out of Dentistry to Pursue Engineering",
+    "date": "Sep 2021",
+    "body": "Made the radical decision to leave dentistry after two years to follow my true passion in engineering and technology.",
+    "media": ["assets/fu-dhf-pic.jpg", "assets/fu-dhf-pic2.jpg", "assets/fu-dhf.mp4"]
+  }
+]

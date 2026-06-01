@@ -37,7 +37,7 @@
 <meta content="https://myz21.github.io/images/profile-photo.png" name="twitter:image"/>
 <meta content="no-referrer" name="referrer"/>
 <link href="https://www.jetbrains.com/favicon.ico" rel="icon" type="image/x-icon"/>
-<meta content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'self' 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;" http-equiv="content-security-policy"/>
+<meta content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'self' 'unsafe-inline'; media-src 'self' data:; connect-src 'self' http://localhost:8081 ws://localhost:8081; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;" http-equiv="content-security-policy"/>
 <link href="assets/styles/main.css" rel="stylesheet"/></head><body>
 <div id="root">
 <div class="site-container"><button aria-label="Toggle theme" class="theme-toggle-button"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
@@ -69,8 +69,8 @@
 </div>
 </header>
 <main class="main-content">
-<div class="about-section about-hero" style="display: flex; gap: 3rem; align-items: flex-start; justify-content: space-between; flex-wrap: wrap;">
-<div class="about-copy" style="flex: 1; min-width: 300px;">
+<div class="about-section about-hero">
+<div class="about-copy">
 <h1><span class="title-hashtag">#</span> About</h1>
 <p style="font-size: 1.1em; line-height: 1.6; margin-bottom: 20px;">
                             I am a young person who grew up immersed in internet culture, deeply passionate about using technology, and in love with art. I study Computer Engineering because thinking like an engineer perfectly fits my nature.
@@ -85,7 +85,7 @@
 <ul id="oss-issue-list" style="list-style:none;padding:0;"></ul>
 </div>
 </div>
-<div class="about-portrait-shell" style="flex-shrink: 0; width: 100%; max-width: 280px; display: flex; justify-content: center; padding-top: 20px;">
+<div class="about-portrait-shell">
 <div class="about-portrait-frame"><img alt="Profile Picture" loading="eager" src="assets/IMG-20250626-WA0006.jpg"/></div>
 </div>
 </div>
@@ -97,9 +97,6 @@
 </footer>
 </div>
 </div>
-
-
-
 <script>
 (function(){
   const PRS = [

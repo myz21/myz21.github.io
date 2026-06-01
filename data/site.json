@@ -1,0 +1,30 @@
+{
+  "projects": {
+    "title": "Projects",
+    "intro": "Selected work across AI, software engineering, and creative experimentation."
+  },
+  "journey": {
+    "title": "Journey",
+    "intro": "Welcome to my personal journey. Here are the important milestones in my life — from career growth to bold life decisions."
+  },
+  "voluntary": {
+    "title": "Voluntary",
+    "intro": "During my university years, I have actively participated in various voluntary communities to share knowledge, foster technological awareness, and build strong, collaborative networks."
+  },
+  "awards": {
+    "title": "Awards",
+    "intro": "Welcome to my achievements. I have proven my engineering skills by solving complex algorithmic problems under tight deadlines in various competitions."
+  },
+  "art": {
+    "title": "Art",
+    "intro_paragraphs": [
+      "While I was studying dentistry, I wanted to understand the human body mechanically rather than just memorizing it. To better learn anatomy during my dentistry studies, I drew detailed anatomical and biological sketches.",
+      "At the same time, I also draw caricatures that give social messages to people.",
+      "I regularly share my artwork on my Instagram page delusional.myz."
+    ]
+  },
+  "captures": {
+    "title": "Captures",
+    "intro": "Welcome to my photography collection. These are moments I've captured during my travels and experiences. Click on any photo to view it in full size."
+  }
+}
