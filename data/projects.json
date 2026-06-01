@@ -1,44 +1,79 @@
 [
   {
-    "title": "TechTipsWiki",
-    "href": "https://github.com/myz21/TechTipsWiki",
-    "date": "2026-05",
-    "tech": ["Next.js", "TypeScript", "Tailwind", "FastAPI"],
-    "desc": "Open-source full-stack platform focused on explaining modern technologies clearly, transparently, and fast for curious learners."
+    "title": "Mass-Augmenter",
+    "href": "https://github.com/myz21/Mass-Augmenter",
+    "date": "",
+    "tech": ["Python", "Gemini 3.1 Pro", "SAM 3.1", "Nano Banana", "YOLO11", "Factory/Strategy/Singleton/Builder"],
+    "desc": "Generative data augmentation CLI framework using Factory/Strategy patterns, Gemini 3.1 Pro, SAM 3.1, and Nano Banana to inject physically consistent synthetic data into YOLO11 training sets. Will be open source soon."
   },
   {
-    "title": "ZenithAI",
-    "href": "https://github.com/myz21",
+    "title": "ProtMamba",
+    "href": "https://github.com/HUBioDataLab/ProtMamba",
+    "date": "",
+    "tech": ["PyTorch", "Hugging Face", "W&B", "Mamba", "Python"],
+    "desc": "State-Space Model for generative protein language modeling that avoids Transformer quadratic bottlenecks with linear-time inference. Contribution: parameter optimizations and training note improvements."
+  },
+  {
+    "title": "Zenith AI (TEKNOFEST)",
+    "href": "https://github.com/Emre-Akpinar/Zenith",
     "date": "2025-09",
-    "tech": ["Python", "YOLO", "ORB", "Computer Vision"],
-    "desc": "Competition-oriented aviation AI work combining object detection and visual odometry experiments for autonomous systems."
+    "tech": ["Python", "YOLO11", "ORB Odometry", "OpenCV"],
+    "desc": "Vision-based navigation and object detection repository for the GPS-denied UAV challenge at TEKNOFEST Aviation AI competition. Contribution: mAP calculation logic revisions and model metric optimization."
   },
   {
-    "title": "Medical Assistant Chatbot",
-    "href": "https://github.com/myz21",
-    "date": "2025-04",
-    "tech": ["FastAPI", "LangChain", "Pydantic"],
-    "desc": "Personalized conversational AI assistant shaped by demographics and chat history, served through a practical web interface."
+    "title": "SkateSync AI",
+    "href": "https://github.com/myz21/metu-sports-hackhaton",
+    "date": "",
+    "tech": ["Python", "React", "NLP", "Vision AI", "LLMs", "VLMs", "TTS"],
+    "desc": "Platform unifying voice and vision AI for figure skating coaching with BPM rhythm analysis, an LLM coaching engine, and VLM-based video evaluation in a single full-stack app built in 24 hours."
   },
   {
-    "title": "micrograd",
-    "href": "https://github.com/myz21/micrograd",
-    "date": "2025-04",
-    "tech": ["Python", "NumPy"],
-    "desc": "A from-scratch neural network learning project inspired by Andrej Karpathy to understand core backpropagation mechanics."
+    "title": "The Traitor",
+    "href": "https://github.com/M-Enes/TheTraitor",
+    "date": "2025-01",
+    "tech": ["C++", "SFML", "TCP Networking"],
+    "desc": "Built SFML client UI for menu, lobby, and action phases plus avatar selection and win/lose screens, integrated with packet-based TCP client-server multiplayer gameplay. Contribution: action phase UI design, lobby screen, map, and font additions."
+  },
+  {
+    "title": "LetMeFind",
+    "href": "https://github.com/myz21/LetMeFind",
+    "date": "",
+    "tech": ["Python", "Gemini 1.5 Pro", "Vector DB", "MCP", "React"],
+    "desc": "Hybrid e-commerce product discovery system orchestrating intent analysis, semantic search, and deterministic filtering so users can find products through natural language."
+  },
+  {
+    "title": "privacy-policy-analyzer",
+    "href": "https://github.com/myz21/privacy-policy-analyzer",
+    "date": "",
+    "tech": ["Python", "REST API", "LangChain", "Selenium"],
+    "desc": "Command-line tool that automatically fetches, analyzes, and scores website privacy policies with AI to highlight strengths, risks, and recommendations."
+  },
+  {
+    "title": "AYBUStore",
+    "href": "https://github.com/myz21/AYBUStore",
+    "date": "",
+    "tech": ["Python", "Next.js", "Firebase Auth"],
+    "desc": "E-commerce platform that brings the university campus store online, built with Next.js and Firebase Auth for a fast and secure shopping experience."
+  },
+  {
+    "title": "Endpoint Detector",
+    "href": "https://github.com/myz21/Energy-Based-EndPoint-Detection",
+    "date": "",
+    "tech": ["Python", "NumPy", "Librosa", "Matplotlib"],
+    "desc": "Python-based Voice Activity Detection system using Short-Time Energy and a double-threshold algorithm, with preprocessing, morphological post-processing, and visualization tools."
   },
   {
     "title": "Spikeflight",
     "href": "https://github.com/myz21/Spikeflight",
     "date": "2025-02",
     "tech": ["C#", "Unity"],
-    "desc": "2D platformer prototype with enemy baiting, spike traps, and scene-based gameplay foundations built in Unity."
+    "desc": "2D platformer where a tiny red adventurer traverses floating islands and lures enemies into spikes, built with interactive UI and menu scenes as a foundation for later physics work."
   },
   {
-    "title": "The Traitor",
-    "href": "https://github.com/myz21/The-Traitor",
-    "date": "2025-01",
-    "tech": ["C++", "SFML"],
-    "desc": "Multiplayer strategy game project where hidden-role deduction meets country management and collaborative gameplay design."
+    "title": "micrograd",
+    "href": "https://github.com/myz21/micrograd",
+    "date": "2025-04",
+    "tech": ["Python", "NumPy", "Neural Networks"],
+    "desc": "Foundational neural network project built from scratch by following Andrej Karpathy's tutorials to deeply understand automatic differentiation and core AI architecture mechanics."
   }
 ]

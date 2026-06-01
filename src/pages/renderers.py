@@ -165,7 +165,8 @@ def render_projects_page():
     grid = section.select_one('.projects-grid')
     for project in projects:
         tags = ''.join(f'<span class="project-tag">{tag}</span>' for tag in project['tech'])
-        html = f'''<article class="project-card"><div class="project-card-head"><div><h2 class="project-title"><span class="title-hashtag">##</span><a class="project-title-link" href="{project['href']}" target="_blank" rel="noopener">{project['title']}</a></h2></div><a class="project-link-icon" href="{project['href']}" target="_blank" rel="noopener" aria-label="Visit {project['title']}"><img src="assets/icon_340d47e3.svg" alt="external link icon" /></a></div><div class="project-tags">{tags}</div><p class="project-desc">{project['desc']}</p><div class="project-meta"><span class="project-date">{project['date']}</span></div></article>'''
+        meta = f'<div class="project-meta"><span class="project-date">{project["date"]}</span></div>' if project.get('date') else ''
+        html = f'''<article class="project-card"><div class="project-card-head"><div><h2 class="project-title"><span class="title-hashtag">##</span><a class="project-title-link" href="{project['href']}" target="_blank" rel="noopener">{project['title']}</a></h2></div><a class="project-link-icon" href="{project['href']}" target="_blank" rel="noopener" aria-label="Visit {project['title']}"><img src="assets/icon_340d47e3.svg" alt="external link icon" /></a></div><div class="project-tags">{tags}</div><p class="project-desc">{project['desc']}</p>{meta}</article>'''
         grid.append(BeautifulSoup(html, 'html.parser'))
     style = soup.new_tag('style')
     style.string = PROJECT_STYLE
