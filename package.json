@@ -1,0 +1,17 @@
+{
+  "name": "yusuf-site",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check:fonts": "python scripts/analyze_base64.py",
+    "normalize:fonts": "python scripts/normalize_fonts.py",
+    "build:pages": "python scripts/build_pages.py"
+  },
+  "devDependencies": {
+    "vite": "^5.4.19"
+  }
+}
