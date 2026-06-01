@@ -6,6 +6,18 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = ROOT / 'data'
+THEME_INIT_JS = """(() => {
+  try {
+    const paramTheme = new URLSearchParams(window.location.search).get('theme');
+    const saved = localStorage.getItem('site-theme');
+    const theme = (paramTheme === 'light' || paramTheme === 'dark')
+      ? paramTheme
+      : saved === 'light' || saved === 'dark'
+      ? saved
+      : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+  } catch (_) {}
+})();"""
 
 CAROUSEL_JS = """
 function setSlidePosition(wrapper, idx) {
@@ -65,6 +77,21 @@ def ensure_shared_stylesheet(soup: BeautifulSoup):
     if not soup.find('link', href='assets/styles/main.css'):
         link = soup.new_tag('link', rel='stylesheet', href='assets/styles/main.css')
         soup.head.append(link)
+
+
+def ensure_theme_script(soup: BeautifulSoup):
+    if not soup.find('script', src='assets/scripts/theme.js'):
+        script = soup.new_tag('script', src='assets/scripts/theme.js', defer=True)
+        soup.body.append(script)
+
+
+def ensure_theme_init_script(soup: BeautifulSoup):
+    for script in soup.head.find_all('script'):
+        if script.get_text(strip=True) == THEME_INIT_JS:
+            return
+    script = soup.new_tag('script')
+    script.string = THEME_INIT_JS
+    soup.head.insert(0, script)
 
 
 def ensure_local_connect_csp(soup: BeautifulSoup):
@@ -128,6 +155,8 @@ def render_projects_page():
     path = ROOT / 'projects.html'
     soup = BeautifulSoup(path.read_text(encoding='utf-8'), 'html.parser')
     ensure_shared_stylesheet(soup)
+    ensure_theme_init_script(soup)
+    ensure_theme_script(soup)
     ensure_local_connect_csp(soup)
     clean_legacy_styles(soup, ['.projects-grid', '.project-card{'])
     section = soup.select_one('.about-section')
@@ -150,6 +179,8 @@ def render_timeline_page(page_name: str, data_name: str):
     path = ROOT / f'{page_name}.html'
     soup = BeautifulSoup(path.read_text(encoding='utf-8'), 'html.parser')
     ensure_shared_stylesheet(soup)
+    ensure_theme_init_script(soup)
+    ensure_theme_script(soup)
     ensure_local_connect_csp(soup)
     clean_legacy_styles(soup, ['/* ── Timeline Layout ── */', '.timeline-container'])
     clean_legacy_scripts(soup)
@@ -182,6 +213,8 @@ def render_media_cards_page(page_name: str, data_name: str, mode: str):
     path = ROOT / f'{page_name}.html'
     soup = BeautifulSoup(path.read_text(encoding='utf-8'), 'html.parser')
     ensure_shared_stylesheet(soup)
+    ensure_theme_init_script(soup)
+    ensure_theme_script(soup)
     ensure_local_connect_csp(soup)
     if mode == 'awards':
         clean_legacy_scripts(soup)
@@ -225,5 +258,7 @@ def render_all():
     render_media_cards_page('captures', 'captures.json', 'captures')
     for path in ROOT.glob('*.html'):
         soup = BeautifulSoup(path.read_text(encoding='utf-8'), 'html.parser')
+        ensure_theme_init_script(soup)
         ensure_local_connect_csp(soup)
+        ensure_theme_script(soup)
         path.write_text(str(soup), encoding='utf-8')

@@ -1,6 +1,17 @@
 
 <!-- saved from url=(0051)file:///home/neo/Downloads/yusuf_site/projects.html -->
-<html data-theme="dark" lang="en" style=""><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<html data-theme="dark" lang="en" style=""><head><script>(() => {
+  try {
+    const paramTheme = new URLSearchParams(window.location.search).get('theme');
+    const saved = localStorage.getItem('site-theme');
+    const theme = (paramTheme === 'light' || paramTheme === 'dark')
+      ? paramTheme
+      : saved === 'light' || saved === 'dark'
+      ? saved
+      : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+  } catch (_) {}
+})();</script><meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
 <link href="assets/styles/main.css" rel="stylesheet"/><style>
 .projects-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px;width:100%;max-width:960px;margin:30px 0 0}
 .project-card{background:var(--color-bg-primary);border:1px solid var(--color-border-primary);border-radius:12px;box-shadow:0 2px 6px var(--shadow-light);padding:20px 20px 14px;transition:border-color .25s ease,box-shadow .25s ease,transform .25s ease;min-height:100%}
@@ -42,4 +53,4 @@
 </footer>
 </div>
 </div>
-</body></html>
+<script defer="True" src="assets/scripts/theme.js"></script></body></html>

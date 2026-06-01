@@ -5,7 +5,18 @@
  Page saved with SingleFile 
  url: index.html 
  saved date: Sun May 31 2026 14:06:27 GMT+0300 (Türkiye Standard Time)
---><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+--><head><script>(() => {
+  try {
+    const paramTheme = new URLSearchParams(window.location.search).get('theme');
+    const saved = localStorage.getItem('site-theme');
+    const theme = (paramTheme === 'light' || paramTheme === 'dark')
+      ? paramTheme
+      : saved === 'light' || saved === 'dark'
+      ? saved
+      : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+  } catch (_) {}
+})();</script><meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
 <meta content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" name="viewport"/>
 <meta content="#f5f5f7" name="theme-color"/>
 <meta content="yes" name="apple-mobile-web-app-capable"/>
@@ -213,4 +224,4 @@
   });
 })();
 </script>
-</body></html>
+<script defer="True" src="assets/scripts/theme.js"></script></body></html>

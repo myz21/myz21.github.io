@@ -14,6 +14,7 @@ Static portfolio site generated from structured content files.
 - `src/pages/renderers.py` — shared render pipeline
 - `scripts/render_site.py` — rebuilds all data-driven pages
 - `assets/styles/main.css` — shared site styles
+- `assets/scripts/theme.js` — shared light/dark theme behavior
 
 ## Generated Pages
 
@@ -89,6 +90,7 @@ Append a new object to `data/art.json` or `data/captures.json`, then rebuild.
 - New cards and timeline items can be added without hand-editing HTML
 - Shared rendering logic keeps page patterns consistent
 - Shared CSS keeps typography, spacing, and responsive behavior aligned
+- Shared theme logic keeps light/dark mode consistent across pages
 
 ## Links
 
