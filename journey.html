@@ -159,7 +159,7 @@
 }
 .blur-media-bg {
   position: absolute; inset: -12px;
-  background-image: var(--blur-bg); background-size: cover; background-position: center;
+  background-size: cover; background-position: center;
   filter: blur(26px) saturate(1.05); transform: scale(1.12); opacity: .7;
 }
 .blur-media-frame img, .blur-media-frame video {
@@ -221,7 +221,7 @@
 <div class="tl-card-header">
 <div><h3>🚀 AI Team Lead at BİLTEK AI &amp; Zenith AI</h3></div>
 </div>
-<p>Founded Zenith AI competition team and led the TEKNOFEST 2025 AI in Aviation challenge — built YOLO + ORB visual odometry for flying cars.</p><div class="award-media-wrapper"><div class="award-slider" data-idx="0"><div class="award-slide"><div class="blur-media-frame"><div class="blur-media-bg" style="--blur-bg:url('assets/zenith.jpg')"></div><img loading="lazy" src="assets/zenith.jpg"/></div></div></div></div>
+<p>Founded Zenith AI competition team and led the TEKNOFEST 2025 AI in Aviation challenge — built YOLO + ORB visual odometry for flying cars.</p><div class="award-media-wrapper"><div class="award-slider" data-idx="0"><div class="award-slide"><div class="blur-media-frame"><div class="blur-media-bg" style="background-image:url('assets/zenith.jpg')"></div><img loading="lazy" src="assets/zenith.jpg"/></div></div></div></div>
 <div class="tl-card-footer">
 <span class="date-badge">Sep 2024</span>
 </div>
@@ -237,83 +237,12 @@
 <div class="tl-card-header">
 <div><h3>🦷 Dropped Out of Dentistry to Pursue Engineering</h3></div>
 </div>
-<p>Made the radical decision to leave dentistry after two years to follow my true passion in engineering and technology.</p><div class="award-media-wrapper"><button class="carousel-btn prev" onclick="prevSlide(this)">&lt;</button><div class="award-slider" data-idx="0"><div class="award-slide"><div class="blur-media-frame"><div class="blur-media-bg" style="--blur-bg:url('assets/fu-dhf-pic.jpg')"></div><img loading="lazy" src="assets/fu-dhf-pic.jpg"/></div></div><div class="award-slide"><div class="blur-media-frame"><div class="blur-media-bg" style="--blur-bg:url('assets/fu-dhf-pic2.jpg')"></div><img loading="lazy" src="assets/fu-dhf-pic2.jpg"/></div></div><div class="award-slide"><div class="blur-media-frame"><div class="blur-media-bg"></div><video autoplay="" loop="" muted="" playsinline="" src="assets/fu-dhf.mp4"></video></div></div></div><button class="carousel-btn next" onclick="nextSlide(this)">&gt;</button></div>
+<p>Made the radical decision to leave dentistry after two years to follow my true passion in engineering and technology.</p><div class="award-media-wrapper"><button class="carousel-btn prev" onclick="prevSlide(this)">&lt;</button><div class="award-slider" data-idx="0"><div class="award-slide"><div class="blur-media-frame"><div class="blur-media-bg" style="background-image:url('assets/fu-dhf-pic.jpg')"></div><img loading="lazy" src="assets/fu-dhf-pic.jpg"/></div></div><div class="award-slide"><div class="blur-media-frame"><div class="blur-media-bg" style="background-image:url('assets/fu-dhf-pic2.jpg')"></div><img loading="lazy" src="assets/fu-dhf-pic2.jpg"/></div></div><div class="award-slide"><div class="blur-media-frame"><div class="blur-media-bg"></div><video autoplay="" loop="" muted="" playsinline="" src="assets/fu-dhf.mp4"></video></div></div></div><button class="carousel-btn next" onclick="nextSlide(this)">&gt;</button></div>
 <div class="tl-card-footer">
 <span class="date-badge">Sep 2021</span>
 </div>
 </div><div class="tl-dot"><img alt="logo" src="assets/firat uni.jpeg"/></div><div style="flex:1"></div></div></div></div></main><footer class="footer"><div class="footer-content"><p class="copyright">© 2026 Muhammed Yıldız</p></div></footer></div></div>
 <script>
-    document.addEventListener("DOMContentLoaded", () => {
-        document.querySelectorAll('.carousel').forEach(carousel => {
-            const track = carousel.querySelector('.carousel-track');
-            const items = track.children;
-            const prevBtn = carousel.querySelector('.carousel-btn.prev');
-            const nextBtn = carousel.querySelector('.carousel-btn.next');
-            let index = 0;
-            
-            if (items.length <= 1) {
-                if (prevBtn) prevBtn.style.display = 'none';
-                if (nextBtn) nextBtn.style.display = 'none';
-                return;
-            }
-
-            const update = () => {
-                const offset = slides.length ? (index * 100) / slides.length : 0;
-                track.style.transform = `translateX(-${offset}%)`;
-            };
-
-            prevBtn.addEventListener('click', () => {
-                index = (index > 0) ? index - 1 : items.length - 1;
-                update();
-            });
-
-            nextBtn.addEventListener('click', () => {
-                index = (index < items.length - 1) ? index + 1 : 0;
-                update();
-            });
-        });
-    });
-    </script><script>
-    document.addEventListener("DOMContentLoaded", () => {
-        document.querySelectorAll('.carousel').forEach(carousel => {
-            const track = carousel.querySelector('.carousel-track');
-            const items = track.children;
-            const prevBtn = carousel.querySelector('.carousel-btn.prev');
-            const nextBtn = carousel.querySelector('.carousel-btn.next');
-            let index = 0;
-            
-            if (items.length <= 1) {
-                if (prevBtn) prevBtn.style.display = 'none';
-                if (nextBtn) nextBtn.style.display = 'none';
-                return;
-            }
-
-            const update = () => {
-                const offset = slides.length ? (index * 100) / slides.length : 0;
-                track.style.transform = `translateX(-${offset}%)`;
-            };
-
-            prevBtn.addEventListener('click', () => {
-                index = (index > 0) ? index - 1 : items.length - 1;
-                update();
-            });
-
-            nextBtn.addEventListener('click', () => {
-                index = (index < items.length - 1) ? index + 1 : 0;
-                update();
-            });
-        });
-    });
-    </script><script>
-    document.addEventListener("DOMContentLoaded", () => {
-        document.querySelectorAll('.carousel').forEach(carousel => {
-            const track = carousel.querySelector('.carousel-track');
-            
-            // Optional: you can add buttons back here if needed, 
-            // but native horizontal scrolling works great for touch and trackpads.
-        });
-    });
-    </script><script>
 function setSlidePosition(wrapper, idx) {
   const slider = wrapper.querySelector('.award-slider');
   if (!slider) return;

@@ -159,7 +159,7 @@
 }
 .blur-media-bg {
   position: absolute; inset: -12px;
-  background-image: var(--blur-bg); background-size: cover; background-position: center;
+  background-size: cover; background-position: center;
   filter: blur(26px) saturate(1.05); transform: scale(1.12); opacity: .7;
 }
 .blur-media-frame img, .blur-media-frame video {
@@ -205,7 +205,7 @@
 <div class="tl-card-header">
 <div><h3>💻 R&amp;D Member at Happy Hacking Space</h3></div>
 </div>
-<p>After placing 2nd in the first-ever community Code Jam, I joined their R&amp;D team to contribute to the hackerspace ecosystem.</p><div class="award-media-wrapper"><button class="carousel-btn prev" onclick="prevSlide(this)">&lt;</button><div class="award-slider" data-idx="0"><div class="award-slide"><div class="blur-media-frame"><div class="blur-media-bg" style="--blur-bg:url('assets/hhs_mmet.jpg')"></div><img loading="lazy" src="assets/hhs_mmet.jpg"/></div></div><div class="award-slide"><div class="blur-media-frame"><div class="blur-media-bg" style="--blur-bg:url('assets/hhs_logo.jpg')"></div><img loading="lazy" src="assets/hhs_logo.jpg"/></div></div></div><button class="carousel-btn next" onclick="nextSlide(this)">&gt;</button></div>
+<p>After placing 2nd in the first-ever community Code Jam, I joined their R&amp;D team to contribute to the hackerspace ecosystem.</p><div class="award-media-wrapper"><button class="carousel-btn prev" onclick="prevSlide(this)">&lt;</button><div class="award-slider" data-idx="0"><div class="award-slide"><div class="blur-media-frame"><div class="blur-media-bg" style="background-image:url('assets/hhs_mmet.jpg')"></div><img loading="lazy" src="assets/hhs_mmet.jpg"/></div></div><div class="award-slide"><div class="blur-media-frame"><div class="blur-media-bg" style="background-image:url('assets/hhs_logo.jpg')"></div><img loading="lazy" src="assets/hhs_logo.jpg"/></div></div></div><button class="carousel-btn next" onclick="nextSlide(this)">&gt;</button></div>
 <div class="tl-card-footer">
 <a class="ext-link" href="https://www.linkedin.com/company/happyhackingspace" target="_blank">↗ LinkedIn</a>
 <span class="date-badge">Jan 2025 →</span>
@@ -214,84 +214,13 @@
 <div class="tl-card-header">
 <div><h3>🤝 Head of Education Coordination at Milli Gençlik Topluluğu (AGD)</h3></div>
 </div>
-<p>Co-founded this university club from just 2 members and grew it into the most active AGD branch in Ankara.</p><div class="award-media-wrapper"><button class="carousel-btn prev" onclick="prevSlide(this)">&lt;</button><div class="award-slider" data-idx="0"><div class="award-slide"><div class="blur-media-frame"><div class="blur-media-bg" style="--blur-bg:url('assets/483906555_18261403669286834_4706971470279356965_n.webp')"></div><img loading="lazy" src="assets/483906555_18261403669286834_4706971470279356965_n.webp"/></div></div><div class="award-slide"><div class="blur-media-frame"><div class="blur-media-bg" style="--blur-bg:url('assets/milget_logo.jpg')"></div><img loading="lazy" src="assets/milget_logo.jpg"/></div></div></div><button class="carousel-btn next" onclick="nextSlide(this)">&gt;</button></div>
+<p>Co-founded this university club from just 2 members and grew it into the most active AGD branch in Ankara.</p><div class="award-media-wrapper"><button class="carousel-btn prev" onclick="prevSlide(this)">&lt;</button><div class="award-slider" data-idx="0"><div class="award-slide"><div class="blur-media-frame"><div class="blur-media-bg" style="background-image:url('assets/483906555_18261403669286834_4706971470279356965_n.webp')"></div><img loading="lazy" src="assets/483906555_18261403669286834_4706971470279356965_n.webp"/></div></div><div class="award-slide"><div class="blur-media-frame"><div class="blur-media-bg" style="background-image:url('assets/milget_logo.jpg')"></div><img loading="lazy" src="assets/milget_logo.jpg"/></div></div></div><button class="carousel-btn next" onclick="nextSlide(this)">&gt;</button></div>
 <div class="tl-card-footer">
 <a class="ext-link" href="https://www.linkedin.com/company/milgetybu/" target="_blank">↗ LinkedIn</a>
 <span class="date-badge">Jun 2024</span>
 </div>
 </div><div class="tl-dot"><img alt="logo" src="assets/milget_logo.jpg"/></div><div style="flex:1"></div></div></div></div></main><footer class="footer"><div class="footer-content"><p class="copyright">© 2026 Muhammed Yıldız</p></div></footer></div></div>
 <script>
-    document.addEventListener("DOMContentLoaded", () => {
-        document.querySelectorAll('.carousel').forEach(carousel => {
-            const track = carousel.querySelector('.carousel-track');
-            const items = track.children;
-            const prevBtn = carousel.querySelector('.carousel-btn.prev');
-            const nextBtn = carousel.querySelector('.carousel-btn.next');
-            let index = 0;
-            
-            if (items.length <= 1) {
-                if (prevBtn) prevBtn.style.display = 'none';
-                if (nextBtn) nextBtn.style.display = 'none';
-                return;
-            }
-
-            const update = () => {
-                const offset = slides.length ? (index * 100) / slides.length : 0;
-                track.style.transform = `translateX(-${offset}%)`;
-            };
-
-            prevBtn.addEventListener('click', () => {
-                index = (index > 0) ? index - 1 : items.length - 1;
-                update();
-            });
-
-            nextBtn.addEventListener('click', () => {
-                index = (index < items.length - 1) ? index + 1 : 0;
-                update();
-            });
-        });
-    });
-    </script><script>
-    document.addEventListener("DOMContentLoaded", () => {
-        document.querySelectorAll('.carousel').forEach(carousel => {
-            const track = carousel.querySelector('.carousel-track');
-            const items = track.children;
-            const prevBtn = carousel.querySelector('.carousel-btn.prev');
-            const nextBtn = carousel.querySelector('.carousel-btn.next');
-            let index = 0;
-            
-            if (items.length <= 1) {
-                if (prevBtn) prevBtn.style.display = 'none';
-                if (nextBtn) nextBtn.style.display = 'none';
-                return;
-            }
-
-            const update = () => {
-                const offset = slides.length ? (index * 100) / slides.length : 0;
-                track.style.transform = `translateX(-${offset}%)`;
-            };
-
-            prevBtn.addEventListener('click', () => {
-                index = (index > 0) ? index - 1 : items.length - 1;
-                update();
-            });
-
-            nextBtn.addEventListener('click', () => {
-                index = (index < items.length - 1) ? index + 1 : 0;
-                update();
-            });
-        });
-    });
-    </script><script>
-    document.addEventListener("DOMContentLoaded", () => {
-        document.querySelectorAll('.carousel').forEach(carousel => {
-            const track = carousel.querySelector('.carousel-track');
-            
-            // Optional: you can add buttons back here if needed, 
-            // but native horizontal scrolling works great for touch and trackpads.
-        });
-    });
-    </script><script>
 function setSlidePosition(wrapper, idx) {
   const slider = wrapper.querySelector('.award-slider');
   if (!slider) return;

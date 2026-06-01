@@ -189,7 +189,7 @@ TIMELINE_CSS = """
 }
 .blur-media-bg {
   position: absolute; inset: -12px;
-  background-image: var(--blur-bg); background-size: cover; background-position: center;
+  background-size: cover; background-position: center;
   filter: blur(26px) saturate(1.05); transform: scale(1.12); opacity: .7;
 }
 .blur-media-frame img, .blur-media-frame video {
@@ -233,7 +233,7 @@ def make_carousel(media_list):
         if m.endswith('.mp4'):
             wrapper += f'<div class="award-slide"><div class="blur-media-frame"><div class="blur-media-bg"></div><video src="{m}" autoplay muted loop playsinline></video></div></div>'
         else:
-            wrapper += f"""<div class="award-slide"><div class="blur-media-frame"><div class="blur-media-bg" style="--blur-bg:url('{m}')"></div><img src="{m}" loading="lazy"/></div></div>"""
+            wrapper += f"""<div class="award-slide"><div class="blur-media-frame"><div class="blur-media-bg" style="background-image:url('{m}')"></div><img src="{m}" loading="lazy"/></div></div>"""
     wrapper += '</div>'
     if len(media_list) > 1:
         wrapper += '<button class="carousel-btn next" onclick="nextSlide(this)">></button>'
@@ -365,7 +365,7 @@ def build_page(src_file, dst_file, page_title, intro, items, active_nav):
 
     for tag in soup.find_all('script'):
         text = tag.get_text()
-        if 'function prevSlide' in text or 'function nextSlide' in text:
+        if 'function prevSlide' in text or 'function nextSlide' in text or "document.querySelectorAll('.carousel')" in text:
             tag.decompose()
 
     # Inject timeline CSS (prepend to body since no <head>)
