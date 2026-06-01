@@ -1,49 +1,98 @@
 # Muhammed Yıldız — Portfolio
 
-> Personal portfolio & project showcase — [myz21.github.io](https://myz21.github.io)
+Static portfolio site generated from structured content files.
 
----
+## Structure
 
-## 🗂 Pages
+- `data/site.json` — page titles and intro content
+- `data/projects.json` — project cards
+- `data/journey.json` — journey timeline items
+- `data/voluntary.json` — voluntary timeline items
+- `data/awards.json` — award cards and carousel media
+- `data/art.json` — art gallery items
+- `data/captures.json` — photo gallery items
+- `src/pages/renderers.py` — shared render pipeline
+- `scripts/render_site.py` — rebuilds all data-driven pages
+- `assets/styles/main.css` — shared site styles
 
-| Page | File | Description |
-|------|------|-------------|
-| **About** | `index.html` | Bio, skills, OSS contributions, contact |
-| **Projects** | `projects.html` | AI, robotics & software projects with carousels |
-| **Journey** | `journey.html` | Professional timeline |
-| **Voluntary** | `voluntary.html` | Community & volunteer work |
-| **Awards** | `awards.html` | Hackathons, competitions & certificates |
-| **Art** | `art.html` | Photography and digital art |
-| **Captures** | `captures.html` | Event & conference captures |
+## Generated Pages
 
----
+- `projects.html`
+- `journey.html`
+- `voluntary.html`
+- `awards.html`
+- `art.html`
+- `captures.html`
 
-## 🚀 Running locally
+`index.html` remains hand-authored, but uses the shared stylesheet.
+
+## Local Development
 
 ```bash
-# Serve with Python (avoids CORS issues for GitHub API)
-python3 -m http.server 8000
-# then open http://localhost:8000
+python3 -m http.server 8081
 ```
 
----
+Then open:
 
-## 🛠 Tech
+```bash
+http://localhost:8081
+```
 
-- **Pure HTML/CSS/JS** — no build step required
-- Light/Dark theme toggle with CSS variables
-- CSS scroll-snap carousels
-- GitHub API integration (OSS Contributions — requires HTTP server)
-- Responsive design
+## Rebuild Pages
 
----
+Rebuild every data-driven page:
 
-## 🔗 Links
+```bash
+python scripts/render_site.py
+```
 
-- GitHub: [github.com/myz21](https://github.com/myz21)
-- LinkedIn: [linkedin.com/in/myzz](https://linkedin.com/in/myzz)
-- Email: mhmmdyildiz@proton.me
+Compatibility wrappers:
 
----
+```bash
+python scripts/build_pages.py
+python scripts/rebuild_projects.py
+```
 
-*Built with ❤️ — Muhammed Yıldız, 2025–2026*
+## Editing Content
+
+### Add a new journey item
+
+Add a new object to `data/journey.json`:
+
+```json
+{
+  "year": "2026",
+  "side": "right",
+  "title": "Example title",
+  "body": "Short description.",
+  "date": "Jan 2026",
+  "logo": "assets/example-logo.png",
+  "link": "https://example.com",
+  "link_label": "Example",
+  "media": ["assets/example-image.jpg"]
+}
+```
+
+Then run:
+
+```bash
+python scripts/render_site.py
+```
+
+### Add a new art or capture item
+
+Append a new object to `data/art.json` or `data/captures.json`, then rebuild.
+
+## Why this setup
+
+- Content is separated from layout
+- New cards and timeline items can be added without hand-editing HTML
+- Shared rendering logic keeps page patterns consistent
+- Shared CSS keeps typography, spacing, and responsive behavior aligned
+
+## Links
+
+- Site: `https://myz21.github.io`
+- GitHub: `https://github.com/myz21`
+- LinkedIn: `https://linkedin.com/in/myzz`
+- Art Instagram: `https://instagram.com/delusional.myz`

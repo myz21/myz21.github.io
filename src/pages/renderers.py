@@ -192,6 +192,8 @@ def render_media_cards_page(page_name: str, data_name: str, mode: str):
     section.clear()
     if page_name == 'art':
         intro_html = ''.join(f'<p>{p}</p>' for p in site['intro_paragraphs'])
+        if site.get('instagram_url'):
+            intro_html += f'<p><a href="{site["instagram_url"]}" target="_blank" rel="noopener">instagram.com/delusional.myz</a></p>'
     else:
         intro_html = f'<p>{site["intro"]}</p>'
     grid_class = 'awards-grid' if mode == 'awards' else 'captures-grid'
