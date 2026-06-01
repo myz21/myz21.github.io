@@ -164,7 +164,7 @@ TIMELINE_CSS = """
   overflow: hidden;
   margin-top: 10px;
   aspect-ratio: 16/9;
-  background: #000;
+  background: #0d0d10;
 }
 .award-slider {
   display: flex;
@@ -179,6 +179,7 @@ TIMELINE_CSS = """
   width: 100%; height: 100%;
   object-fit: contain;
   object-position: center;
+  background: transparent;
 }
 .blur-media-frame {
   position: relative;
@@ -193,6 +194,7 @@ TIMELINE_CSS = """
 }
 .blur-media-frame img, .blur-media-frame video {
   position: relative; z-index: 1;
+  background: transparent !important;
 }
 
 .carousel-btn {
