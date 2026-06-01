@@ -42,38 +42,6 @@ window.addEventListener('load', syncAllSliders);
 window.addEventListener('resize', syncAllSliders);
 """
 
-TIMELINE_CSS = """
-/* ── Timeline Layout ── */
-.timeline-container { position: relative; max-width: 820px; margin: 0 auto; padding: 20px 0 40px; }
-.timeline-container::before { content: ''; position: absolute; left: 50%; top: 0; bottom: 0; width: 2px; background: linear-gradient(to bottom, transparent, var(--color-primary, #0a84ff) 10%, var(--color-primary, #0a84ff) 90%, transparent); transform: translateX(-50%); }
-.tl-year-marker { position: relative; text-align: center; margin: 32px 0 8px; z-index: 2; }
-.tl-year-marker span { background: var(--color-bg-secondary, #111); border: 1.5px solid var(--color-primary, #0a84ff); color: var(--color-primary, #0a84ff); font-size: .75rem; font-weight: 700; padding: 3px 14px; border-radius: 20px; letter-spacing: .08em; }
-.tl-item { display: flex; align-items: flex-start; gap: 0; margin: 18px 0; position: relative; }
-.tl-item.left { flex-direction: row-reverse; } .tl-item.right { flex-direction: row; }
-.tl-dot { flex: 0 0 40px; display: flex; align-items: center; justify-content: center; position: relative; z-index: 2; padding-top: 12px; }
-.tl-dot img { width: 36px; height: 36px; border-radius: 50%; object-fit: contain; background: #fff; border: 2px solid var(--color-primary, #0a84ff); box-shadow: 0 0 8px rgba(10,132,255,.3); }
-.tl-card { flex: 1; background: var(--color-bg-primary, rgba(255,255,255,.04)); border: 1px solid var(--color-border-primary, rgba(255,255,255,.08)); border-radius: 12px; padding: 16px; max-width: calc(50% - 20px); transition: border-color .2s; overflow: hidden; }
-.tl-card:hover { border-color: var(--color-primary, #0a84ff); }
-.tl-card-header { display: block; margin-bottom: 8px; }
-.tl-card-header h3 { margin: 0; font-size: 1rem; line-height: 1.3; }
-.tl-card p { font-size: .85rem; line-height: 1.7; margin: 0 0 8px; }
-.tl-card-footer { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; }
-.tl-card-footer .date-badge { font-size: .72rem; color: var(--color-primary, #0a84ff); background: rgba(10,132,255,.1); padding: 4px 10px; border-radius: 999px; white-space: nowrap; border: 1px solid rgba(10,132,255,.25); margin-left: auto; }
-.tl-card a.ext-link { font-size: .78rem; color: var(--color-primary, #0a84ff); text-decoration: none; display: inline-flex; align-items: center; gap: 4px; opacity: .8; transition: opacity .15s; }
-.tl-card a.ext-link:hover { opacity: 1; }
-.award-media-wrapper { position: relative; border-radius: 8px; overflow: hidden; margin-top: 10px; aspect-ratio: 16/9; background: #0d0d10; }
-.award-slider { display: flex; height: 100%; transition: transform .35s ease; }
-.award-slide { flex: 0 0 100%; height: 100%; }
-.award-slide img, .award-slide video { width: 100%; height: 100%; object-fit: contain; object-position: center; background: transparent; }
-.blur-media-frame { position: relative; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; overflow: hidden; background: #0d0d10; }
-.blur-media-bg { position: absolute; inset: -12px; background-size: cover; background-position: center; filter: blur(26px) saturate(1.05); transform: scale(1.12); opacity: .7; }
-.blur-media-frame img, .blur-media-frame video { position: relative; z-index: 1; background: transparent !important; }
-.carousel-btn { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,.55); color: #fff; border: none; width: 28px; height: 28px; border-radius: 50%; cursor: pointer; font-size: .9rem; z-index: 5; display: flex; align-items: center; justify-content: center; transition: background .15s; }
-.carousel-btn:hover { background: rgba(0,0,0,.85); }
-.carousel-btn.prev { left: 6px; } .carousel-btn.next { right: 6px; }
-@media(max-width: 640px) { .timeline-container::before { left: 20px; } .tl-item, .tl-item.left { flex-direction: column; } .tl-dot { padding-top: 0; } .tl-card { max-width: 100%; margin-left: 8px; } }
-"""
-
 PROJECT_STYLE = """
 .projects-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px;width:100%;max-width:960px;margin:30px 0 0}
 .project-card{background:var(--color-bg-primary);border:1px solid var(--color-border-primary);border-radius:12px;box-shadow:0 2px 6px var(--shadow-light);padding:20px 20px 14px;transition:border-color .25s ease,box-shadow .25s ease,transform .25s ease;min-height:100%}
@@ -185,9 +153,6 @@ def render_timeline_page(page_name: str, data_name: str):
     ensure_local_connect_csp(soup)
     clean_legacy_styles(soup, ['/* ── Timeline Layout ── */', '.timeline-container'])
     clean_legacy_scripts(soup)
-    style = soup.new_tag('style')
-    style.string = TIMELINE_CSS
-    soup.body.insert(0, style)
     script = soup.new_tag('script')
     script.string = CAROUSEL_JS
     soup.body.append(script)
@@ -206,7 +171,7 @@ def render_timeline_page(page_name: str, data_name: str):
         link_html = ''
         if item.get('link'):
             link_html = f'<a class="ext-link" href="{item["link"]}" target="_blank">↗ {item.get("link_label", item["link"])}</a>'
-        html = f'''<div class="tl-item {item['side']}"><div class="tl-card"><div class="tl-card-header"><div><h3>{item['title']}</h3></div></div>{''.join(body)}<div class="tl-card-footer">{link_html}<span class="date-badge">{item['date']}</span></div></div><div class="tl-dot"><img src="{item['logo']}" alt="logo"/></div><div style="flex:1"></div></div>'''
+        html = f'''<div class="tl-item {item['side']}"><div class="tl-card"><div class="tl-card-header"><div><h3>{item['title']}</h3></div></div>{''.join(body)}<div class="tl-card-footer">{link_html}<span class="date-badge">{item['date']}</span></div></div><div class="tl-dot"><img src="{item['logo']}" alt="logo"/></div></div>'''
         container.append(BeautifulSoup(html, 'html.parser'))
     path.write_text(str(soup), encoding='utf-8')
 
