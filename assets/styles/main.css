@@ -1379,7 +1379,7 @@ a:not(.social-link):hover {
   }
 
   .about-portrait-frame {
-    width: min(156px, 44vw);
+    width: min(210px, 54vw);
     margin: 0 auto
   }
 
@@ -1456,7 +1456,12 @@ a:not(.social-link):hover {
   }
 
   .social-link {
-    font-size: 1.25em
+    align-items: center;
+    display: inline-flex;
+    font-size: 1.45em;
+    justify-content: center;
+    min-height: 44px;
+    min-width: 44px
   }
 
   .header-right {
@@ -1499,14 +1504,19 @@ a:not(.social-link):hover {
 
   .project-link-icon,
   .card-ext-link {
-    width: 34px;
-    height: 34px
+    width: 44px;
+    height: 44px
   }
 
   .project-link-icon img,
   .card-ext-link svg {
-    width: 16px;
-    height: 16px
+    width: 18px;
+    height: 18px
+  }
+
+  .oss-repo-link {
+    min-height: 44px;
+    padding: 0 4px
   }
 
   .slider-nav,
@@ -1547,7 +1557,7 @@ a:not(.social-link):hover {
   }
 
   .about-portrait-frame {
-    width: min(132px, 38vw);
+    width: min(176px, 52vw);
     padding: 6px;
     border-radius: 20px
   }
