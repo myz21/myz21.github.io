@@ -712,6 +712,10 @@ a:not(.social-link):hover {
   box-shadow: 0 4px 12px var(--shadow-light)
 }
 
+.tl-dot img.timeline-logo-light {
+  background: #fff
+}
+
 .tl-card {
   background: var(--color-bg-primary);
   border: 1px solid var(--color-border-primary);
