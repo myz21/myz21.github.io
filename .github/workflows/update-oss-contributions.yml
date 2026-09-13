@@ -1,0 +1,38 @@
+name: Update OSS contributions
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/update-oss-contributions.mjs"
+      - ".github/workflows/update-oss-contributions.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Fetch public GitHub contributions
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_USERNAME: myz21
+          OSS_CONTRIBUTION_LIMIT: "8"
+        run: node scripts/update-oss-contributions.mjs
+      - name: Commit refreshed feed
+        run: |
+          if git diff --quiet -- public/data/oss-contributions.json; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/oss-contributions.json
+          git commit -m "chore: update OSS contributions"
+          git push

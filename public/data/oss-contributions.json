@@ -1,0 +1,135 @@
+{
+  "updated_at": "2026-09-13T17:43:11Z",
+  "pull_requests": [
+    {
+      "repo": "obss/sahi",
+      "number": 1376,
+      "title": "Add Turkish Language Support ",
+      "status": "closed",
+      "url": "https://github.com/obss/sahi/pull/1376",
+      "created_at": "2026-06-16T23:36:24Z"
+    },
+    {
+      "repo": "myz21/metu-sports-hackhaton",
+      "number": 2,
+      "title": "Muhammed",
+      "status": "merged",
+      "url": "https://github.com/myz21/metu-sports-hackhaton/pull/2",
+      "created_at": "2026-05-16T19:29:40Z"
+    },
+    {
+      "repo": "myz21/metu-sports-hackhaton",
+      "number": 1,
+      "title": "Muhammed",
+      "status": "merged",
+      "url": "https://github.com/myz21/metu-sports-hackhaton/pull/1",
+      "created_at": "2026-05-16T17:47:24Z"
+    },
+    {
+      "repo": "myz21/WikiFolio",
+      "number": 2,
+      "title": "Fix gallery/mobile navbar interactions and carousel control text rendering",
+      "status": "open",
+      "url": "https://github.com/myz21/WikiFolio/pull/2",
+      "created_at": "2026-05-07T12:22:30Z"
+    },
+    {
+      "repo": "myz21/WikiFolio",
+      "number": 1,
+      "title": "Stabilize script execution order to restore Gallery/mobile navigation interactivity",
+      "status": "merged",
+      "url": "https://github.com/myz21/WikiFolio/pull/1",
+      "created_at": "2026-05-07T11:39:07Z"
+    },
+    {
+      "repo": "myz21/GPT",
+      "number": 1,
+      "title": "Implement character-level GPT model from scratch",
+      "status": "open",
+      "url": "https://github.com/myz21/GPT/pull/1",
+      "created_at": "2026-02-08T13:18:25Z"
+    },
+    {
+      "repo": "HappyHackingSpace/privacy-policy-analyzer",
+      "number": 10,
+      "title": "Fixes #9",
+      "status": "merged",
+      "url": "https://github.com/HappyHackingSpace/privacy-policy-analyzer/pull/10",
+      "created_at": "2026-01-17T15:15:49Z"
+    },
+    {
+      "repo": "HappyHackingSpace/sindoq",
+      "number": 11,
+      "title": "Fixes #9",
+      "status": "merged",
+      "url": "https://github.com/HappyHackingSpace/sindoq/pull/11",
+      "created_at": "2026-01-09T08:42:35Z"
+    }
+  ],
+  "issues": [
+    {
+      "repo": "MishanPoudel/Windows11-3.0",
+      "number": 5,
+      "title": "Mobile version",
+      "status": "open",
+      "url": "https://github.com/MishanPoudel/Windows11-3.0/issues/5",
+      "created_at": "2026-05-29T06:15:56Z"
+    },
+    {
+      "repo": "myz21/WikiFolio",
+      "number": 7,
+      "title": "Add \"Download Resume\" button to the UI",
+      "status": "open",
+      "url": "https://github.com/myz21/WikiFolio/issues/7",
+      "created_at": "2026-05-07T16:13:32Z"
+    },
+    {
+      "repo": "myz21/WikiFolio",
+      "number": 6,
+      "title": "Fix broken buttons and improve UI labeling",
+      "status": "open",
+      "url": "https://github.com/myz21/WikiFolio/issues/6",
+      "created_at": "2026-05-07T16:13:13Z"
+    },
+    {
+      "repo": "myz21/WikiFolio",
+      "number": 5,
+      "title": "Legal Research: Investigate Wikipedia's copyright and licensing terms",
+      "status": "open",
+      "url": "https://github.com/myz21/WikiFolio/issues/5",
+      "created_at": "2026-05-07T16:12:56Z"
+    },
+    {
+      "repo": "myz21/WikiFolio",
+      "number": 4,
+      "title": "Implement navigation bar for the Gallery section",
+      "status": "open",
+      "url": "https://github.com/myz21/WikiFolio/issues/4",
+      "created_at": "2026-05-07T16:12:40Z"
+    },
+    {
+      "repo": "myz21/WikiFolio",
+      "number": 3,
+      "title": "Refactor site copy for a more engaging and authentic tone",
+      "status": "open",
+      "url": "https://github.com/myz21/WikiFolio/issues/3",
+      "created_at": "2026-05-07T16:11:09Z"
+    },
+    {
+      "repo": "laiquet/multimodal-labeling-tool",
+      "number": 1,
+      "title": "Feature Request",
+      "status": "open",
+      "url": "https://github.com/laiquet/multimodal-labeling-tool/issues/1",
+      "created_at": "2026-04-30T14:02:51Z"
+    },
+    {
+      "repo": "byigitt/visa-mcp",
+      "number": 3,
+      "title": "Add comprehensive local setup guide to READM",
+      "status": "open",
+      "url": "https://github.com/byigitt/visa-mcp/issues/3",
+      "created_at": "2026-04-27T10:52:25Z"
+    }
+  ]
+}

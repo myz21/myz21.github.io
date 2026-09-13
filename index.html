@@ -144,27 +144,6 @@
   </div>
   <script>
     (function () {
-      const PRS = [
-        { repo: "HappyHackingSpace/privacy-policy-analyzer", num: 10, title: "Fixes #9" },
-        { repo: "myz21/metu-sports-hackhaton", num: 2, title: "Muhammed" },
-        { repo: "myz21/metu-sports-hackhaton", num: 1, title: "Muhammed" },
-        { repo: "HappyHackingSpace/sindoq", num: 11, title: "Fixes #9" },
-        { repo: "M-Enes/TheTraitor", num: 46, title: "Add avatar selection data structures to CommonTypes and GameView" },
-        { repo: "M-Enes/TheTraitor", num: 36, title: "Action phase UI redesign" },
-        { repo: "M-Enes/TheTraitor", num: 32, title: "battery hw implemented" },
-        { repo: "M-Enes/TheTraitor", num: 18, title: "Add world map sketch with convex shapes for continents" },
-      ];
-      const ISSUES = [
-        { repo: "MishanPoudel/Windows11-3.0", num: 5, title: "Mobile version" },
-        { repo: "servi-team/TechTipsWiki", num: 3, title: "Sharing the Website" },
-        { repo: "myz21/WikiFolio", num: 7, title: 'Add "Download Resume" button to the UI' },
-        { repo: "myz21/WikiFolio", num: 6, title: "Fix broken buttons and improve UI labeling" },
-        { repo: "myz21/WikiFolio", num: 5, title: "Legal Research: Investigate Wikipedia copyright" },
-        { repo: "myz21/WikiFolio", num: 4, title: "Implement navigation bar for the Gallery section" },
-        { repo: "myz21/WikiFolio", num: 3, title: "Refactor site copy for a more engaging tone" },
-        { repo: "laiquet/multimodal-labeling-tool", num: 1, title: "Feature Request" },
-      ];
-
       const ARROW = '<svg style="width:9px;height:9px;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10M7 17 17 7"/></svg>';
 
       function icon(color, path) {
@@ -176,7 +155,6 @@
         openPr: icon("#4ade80", '<circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M6 9v12m12-9v3"/>'),
         openIss: icon("#60a5fa", '<circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>'),
         closedIss: icon("#c084fc", '<circle cx="12" cy="12" r="10"/><polyline points="9 12 11 14 15 10"/>'),
-        loading: '<svg class="oss-icon oss-spin" style="color:#555" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12a9 9 0 1 1-6.219-8.56"/></svg>',
       };
 
       function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
@@ -194,71 +172,42 @@
           : '<span class="oss-badge oss-badge-closed-iss">closed</span>';
       }
 
-      function skeletonRow(item, kind) {
-        const url = "https://github.com/" + item.repo + "/" + (kind === "pull" ? "pull" : "issues") + "/" + item.num;
-        return `<li class="oss-item" data-oss="${esc(item.repo)}|${item.num}|${kind}">
-      <div class="oss-header">${ICONS.loading}
-        <a class="oss-repo-link" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(item.repo.toLowerCase())}${ARROW}</a>
-      </div>
-      <p class="oss-title">${esc(item.title)}</p>
-    </li>`;
+      function row(item, kind) {
+        const ico = kind === "pull" ? prIcon(item.status) : issIcon(item.status);
+        const badge = kind === "pull" ? prBadge(item.status) : issBadge(item.status);
+        return `<li class="oss-item"><div class="oss-header">${ico}<a class="oss-repo-link" href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(item.repo.toLowerCase())}${badge}${ARROW}</a></div><p class="oss-title">${esc(item.title)}</p></li>`;
       }
 
-      function updateRow(repo, num, kind, status, title) {
-        const li = document.querySelector('li[data-oss="' + repo + "|" + num + "|" + kind + '"]');
-        if (!li) return;
-        const url = "https://github.com/" + repo + "/" + (kind === "pull" ? "pull" : "issues") + "/" + num;
-        const ico = kind === "pull" ? prIcon(status) : issIcon(status);
-        const badge = kind === "pull" ? prBadge(status) : issBadge(status);
-        li.querySelector(".oss-header").innerHTML = ico + '<a class="oss-repo-link" href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">' + esc(repo.toLowerCase()) + badge + ARROW + '</a>';
-        if (title) li.querySelector(".oss-title").textContent = title;
+      function contributionList(items, kind) {
+        const visibleItems = items.slice(0, 2).map(item => row(item, kind)).join("");
+        const hiddenItems = items.slice(2).map(item => row(item, kind)).join("");
+        if (!hiddenItems) return visibleItems || "<li>No contributions found.</li>";
+        return `${visibleItems}<li class="oss-more"><details><summary aria-label="Show all contributions"><span class="oss-disclosure-chevron" aria-hidden="true"></span><span class="oss-disclosure-label"><span class="oss-show-label">Show all (${items.length})</span><span class="oss-hide-label">Show less</span></span></summary><ul class="oss-more-list">${hiddenItems}</ul></details></li>`;
       }
 
-      let rateLimited = false;
-      function showRateLimit() {
-        if (rateLimited) return; rateLimited = true;
-        const n = document.getElementById("oss-notice");
-        n.textContent = "GitHub API rate limit reached — showing cached titles.";
-        n.style.display = "block";
-      }
-
-      // Detect if running under file:// (no network access for GitHub API)
-      const isLocal = location.protocol === 'file:';
-
-      async function fetchPR(item) {
-        if (isLocal) { updateRow(item.repo, item.num, "pull", "merged", item.title); return; }
-        try {
-          const r = await fetch("https://api.github.com/repos/" + item.repo + "/pulls/" + item.num, { headers: { Accept: "application/vnd.github+json" } });
-          if (r.status === 403 || r.status === 429) { showRateLimit(); return; }
-          if (!r.ok) { updateRow(item.repo, item.num, "pull", "closed", item.title); return; }
-          const d = await r.json();
-          updateRow(item.repo, item.num, "pull", d.merged_at ? "merged" : d.state, d.title || item.title);
-        } catch (e) { console.warn(e); updateRow(item.repo, item.num, "pull", "merged", item.title); }
-      }
-
-      async function fetchIssue(item) {
-        if (isLocal) { updateRow(item.repo, item.num, "issues", "closed", item.title); return; }
-        try {
-          const r = await fetch("https://api.github.com/repos/" + item.repo + "/issues/" + item.num, { headers: { Accept: "application/vnd.github+json" } });
-          if (r.status === 403 || r.status === 429) { showRateLimit(); return; }
-          if (!r.ok) { updateRow(item.repo, item.num, "issues", "closed", item.title); return; }
-          const d = await r.json();
-          updateRow(item.repo, item.num, "issues", d.state, d.title || item.title);
-        } catch (e) { console.warn(e); updateRow(item.repo, item.num, "issues", "closed", item.title); }
-      }
-
-      document.addEventListener("DOMContentLoaded", function () {
+      async function loadContributions() {
         const prList = document.getElementById("oss-pr-list");
         const issueList = document.getElementById("oss-issue-list");
         if (!prList || !issueList) return;
-        prList.innerHTML = PRS.map(p => skeletonRow(p, "pull")).join("");
-        issueList.innerHTML = ISSUES.map(i => skeletonRow(i, "issues")).join("");
-        PRS.forEach(fetchPR);
-        ISSUES.forEach(fetchIssue);
+        try {
+          const response = await fetch("data/oss-contributions.json", { cache: "no-store" });
+          if (!response.ok) throw new Error("Contribution feed could not be loaded");
+          const data = await response.json();
+          prList.innerHTML = contributionList(data.pull_requests || [], "pull");
+          issueList.innerHTML = contributionList(data.issues || [], "issues");
+        } catch (error) {
+          const notice = document.getElementById("oss-notice");
+          notice.textContent = "OSS contributions could not be loaded right now.";
+          notice.style.display = "block";
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        loadContributions();
       });
     })();
   </script>
-  <script defer="True" src="assets/scripts/theme.js"></script>
+  <script type="module" src="/src/main.js"></script>
 </body>
 
 </html>

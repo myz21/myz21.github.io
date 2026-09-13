@@ -868,6 +868,82 @@ a:not(.social-link):hover {
   margin: 10px 0 12px
 }
 
+.oss-more {
+  list-style: none;
+  margin-top: 4px
+}
+
+.oss-more summary {
+  align-items: center;
+  border-radius: 8px;
+  color: var(--color-secondary);
+  cursor: pointer;
+  display: inline-flex;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 12px;
+  user-select: none
+}
+
+.oss-more summary::-webkit-details-marker {
+  display: none
+}
+
+.oss-more summary:hover,
+.oss-more summary:focus-visible {
+  background: var(--color-bg-light);
+  outline: none
+}
+
+.oss-disclosure-chevron {
+  border-bottom: 2px solid currentColor;
+  border-right: 2px solid currentColor;
+  height: 8px;
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform .2s ease;
+  width: 8px
+}
+
+.oss-more details[open] .oss-disclosure-chevron {
+  transform: rotate(225deg) translateY(-2px)
+}
+
+.oss-disclosure-label {
+  font-size: .82rem;
+  opacity: 0;
+  transition: opacity .18s ease
+}
+
+.oss-more summary:hover .oss-disclosure-label,
+.oss-more summary:focus-visible .oss-disclosure-label,
+.oss-more details[open] .oss-disclosure-label {
+  opacity: 1
+}
+
+.oss-hide-label {
+  display: none
+}
+
+.oss-more details[open] .oss-show-label {
+  display: none
+}
+
+.oss-more details[open] .oss-hide-label {
+  display: inline
+}
+
+.oss-more-list {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0
+}
+
+@media (hover: none) {
+  .oss-disclosure-label {
+    opacity: 1
+  }
+}
+
 .media-grid,
 .awards-grid,
 .captures-grid {
