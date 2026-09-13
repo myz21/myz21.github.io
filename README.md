@@ -1,96 +1,55 @@
 # Muhammed Yıldız — Portfolio
 
-Static portfolio site generated from structured content files.
+Vite-powered, multi-page portfolio built with vanilla JavaScript.
 
 ## Structure
 
-- `data/site.json` — page titles and intro content
-- `data/projects.json` — project cards
-- `data/journey.json` — journey timeline items
-- `data/voluntary.json` — voluntary timeline items
-- `data/awards.json` — award cards and carousel media
-- `data/art.json` — art gallery items
-- `data/captures.json` — photo gallery items
-- `src/pages/renderers.py` — shared render pipeline
-- `scripts/render_site.py` — rebuilds all data-driven pages
+- `data/` — retained structured content archive from the prior static generator
+- `public/data/oss-contributions.json` — generated GitHub pull request and issue feed
+- `src/main.js` — shared vanilla JavaScript entry point
+- `src/theme.js` — theme interaction module
+- `scripts/update-oss-contributions.mjs` — fetches the latest public OSS activity
+- `.github/workflows/update-oss-contributions.yml` — refreshes the OSS feed every six hours
 - `assets/styles/main.css` — shared site styles
-- `assets/scripts/theme.js` — shared light/dark theme behavior
 
-## Generated Pages
+## Vite Pages
 
 - `projects.html`
 - `journey.html`
 - `voluntary.html`
 - `awards.html`
 - `art.html`
-- `captures.html`
 
-`index.html` remains hand-authored, but uses the shared stylesheet.
+## OSS Contributions Feed
+
+The home page reads its contribution list from `public/data/oss-contributions.json`; visitors do not call the GitHub API directly.
+GitHub Actions refreshes that file every six hours and commits it only when the result changes. It can also be run immediately from the repository's **Actions → Update OSS contributions → Run workflow** screen.
+
+To refresh it locally (public contributions only):
+
+```bash
+node scripts/update-oss-contributions.mjs
+```
 
 ## Local Development
 
 ```bash
-python3 -m http.server 8081
+npm install
+npm run dev
 ```
 
-Then open:
+Vite prints the local address in the terminal. Build the production-ready `dist/` directory with:
 
 ```bash
-http://localhost:8081
+npm run build
 ```
-
-## Rebuild Pages
-
-Rebuild every data-driven page:
-
-```bash
-python scripts/render_site.py
-```
-
-Compatibility wrappers:
-
-```bash
-python scripts/build_pages.py
-python scripts/rebuild_projects.py
-```
-
-## Editing Content
-
-### Add a new journey item
-
-Add a new object to `data/journey.json`:
-
-```json
-{
-  "year": "2026",
-  "side": "right",
-  "title": "Example title",
-  "body": "Short description.",
-  "date": "Jan 2026",
-  "logo": "assets/example-logo.png",
-  "link": "https://example.com",
-  "link_label": "Example",
-  "media": ["assets/example-image.jpg"]
-}
-```
-
-Then run:
-
-```bash
-python scripts/render_site.py
-```
-
-### Add a new art or capture item
-
-Append a new object to `data/art.json` or `data/captures.json`, then rebuild.
 
 ## Why this setup
 
-- Content is separated from layout
-- New cards and timeline items can be added without hand-editing HTML
-- Shared rendering logic keeps page patterns consistent
+- Vite provides a fast development server and optimized production build
+- Shared JavaScript modules keep browser behavior consistent
 - Shared CSS keeps typography, spacing, and responsive behavior aligned
-- Shared theme logic keeps light/dark mode consistent across pages
+- The contribution feed is generated server-side and contains no exposed token
 
 ## Links
 

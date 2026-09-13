@@ -1,2 +1,3 @@
-const currentTheme = document.documentElement.getAttribute('data-theme') || 'dark';
-document.documentElement.setAttribute('data-theme', currentTheme);
+import { initialiseTheme } from './theme.js';
+
+document.addEventListener('DOMContentLoaded', initialiseTheme);

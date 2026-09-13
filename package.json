@@ -1,16 +1,12 @@
 {
-  "name": "yusuf-site",
+  "name": "myz21-portfolio",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "check:fonts": "python scripts/analyze_base64.py",
-    "normalize:fonts": "python scripts/normalize_fonts.py",
-    "build:pages": "python scripts/render_site.py",
-    "build:site": "python scripts/render_site.py"
+    "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "^5.4.19"
