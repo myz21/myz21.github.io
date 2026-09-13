@@ -2,6 +2,27 @@
   {
     "year": 2026,
     "side": "right",
+    "logo": "assets/jotform-logo.svg",
+    "title": "💼 Backend Developer Intern at Jotform",
+    "date": "Aug 2026 → Sep 2026",
+    "body": "Built backend services and RESTful APIs with modern PHP MVC for the Enterprise Landing Page Generator. Designed a modular, username-centric MySQL schema with JSON-backed component modeling, role-based collaborator access, and dynamic HTML publishing and preview pipelines.",
+    "link": "https://www.jotform.com/",
+    "link_label": "Jotform",
+    "media": ["assets/jotform_gallery.jpg", "assets/jotform_gallery2.jpg", "assets/jotform_gallery3.jpg", "assets/jotform_gallery4.mp4"]
+  },
+  {
+    "side": "left",
+    "logo": "assets/cnrs-logo.svg",
+    "title": "🧠 Research Intern at CNRS neuro.AI",
+    "date": "Jun 2026 → Present",
+    "body": "Researching Global-Workspace architecture and World Models in Toulouse, France. Engineered a Hexagonal Architecture pipeline for bimodal dataset collection and DreamerV3 reinforcement-learning training in 2D Atari Pong, with Weights & Biases for experiment tracking and metric visualization.",
+    "link": "https://scholar.google.com/citations?user=1pwyaYgAAAAJ",
+    "link_label": "Supervised by Dr. Rufin VanRullen",
+    "media": ["assets/cnrs_gallery1.jpg", "assets/cnrs_gallery2.png", "assets/cnrs_gallery3.jpg"]
+  },
+  {
+    "year": 2026,
+    "side": "right",
     "logo": "assets/hubio-logo.png",
     "title": "🔬 Undergraduate Researcher at Biological Data Science Lab",
     "date": "Aug 2025 →",
