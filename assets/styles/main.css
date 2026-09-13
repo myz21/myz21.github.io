@@ -783,6 +783,16 @@ a:not(.social-link):hover {
   margin-bottom: 20px
 }
 
+.role-tagline {
+  color: var(--color-primary);
+  font-size: .95rem !important;
+  font-weight: 700;
+  letter-spacing: .04em;
+  line-height: 1.5 !important;
+  margin: -4px 0 18px !important;
+  text-transform: uppercase
+}
+
 .about-portrait-shell {
   flex-shrink: 0;
   width: 100%;
