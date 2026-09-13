@@ -713,7 +713,10 @@ a:not(.social-link):hover {
 }
 
 .tl-dot img.timeline-logo-light {
-  background: #fff
+  background: #fff;
+  width: 48px;
+  height: 48px;
+  padding: 6px
 }
 
 .tl-card {
