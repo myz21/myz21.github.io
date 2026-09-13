@@ -2,7 +2,7 @@
   {
     "year": 2026,
     "side": "right",
-    "logo": "assets/jotform-logo.svg",
+    "logo": "assets/jotform-logo.png",
     "title": "💼 Backend Developer Intern at Jotform",
     "date": "Aug 2026 → Sep 2026",
     "body": "Built backend services and RESTful APIs with modern PHP MVC for the Enterprise Landing Page Generator. Designed a modular, username-centric MySQL schema with JSON-backed component modeling, role-based collaborator access, and dynamic HTML publishing and preview pipelines.",
